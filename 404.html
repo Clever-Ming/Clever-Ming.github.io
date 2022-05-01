@@ -13,6 +13,7 @@
   <meta name="renderer" content="webkit">
   <meta name="force-rendering" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta http-equiv="Content-Security-Policy" content=" default-src 'self' https:; block-all-mixed-content; base-uri 'self' https:; form-action 'self' https:; worker-src 'self' https:; connect-src 'self' https: *; img-src 'self' data: https: *; media-src 'self' https: *; font-src 'self' data: https: *; frame-src 'self' https: *; manifest-src 'self' https: *; child-src https:; script-src 'self' https: 'unsafe-inline' *; style-src 'self' https: 'unsafe-inline' *; ">
   <meta name="HandheldFriendly" content="True" >
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
@@ -1796,7 +1797,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: false,
     cdn: {"js":{"app":"/js/app.3690b000.js","parallax":"/js/plugins/parallax.8bf0ab10.js","rightMenu":"/js/plugins/rightMenu.1d2dd3e0.js","rightMenus":"/js/plugins/rightMenus.48fa1716.js","sites":"/js/plugins/tags/sites.76bf19b8.js","friends":"/js/plugins/tags/friends.f372da57.js","contributors":"/js/plugins/tags/contributors.aec80453.js","search":"/js/search/hexo.06d40311.js"},"css":{"style":"/css/style.9de1eaa6.css"}},
     default: {"avatar":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/avatar/round/3442075.svg","link":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/cover/76b86c0226ffd.svg","image":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1651401119140),
+    lastupdate: new Date(1651402632364),
     sidebar: {
       for_page: ["blogger","category","tagcloud","donate"],
       for_post: ["toc"],
@@ -3414,7 +3415,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
   volantis.layoutHelper("comments",`<div id="twikoo_container"><i class="fa-solid fa-cog fa-spin fa-fw fa-2x"></i></div>`)
   function load_twikoo() {
     if(!document.querySelectorAll("#twikoo_container")[0])return;
-    volantis.js("https://npm.elemecdn.com/twikoo@1.5.8", pjax_twikoo)
+    volantis.js("https://npm.elemecdn.com/twikoo@1.5.5", pjax_twikoo)
   }
   function pjax_twikoo() {
     if(!document.querySelectorAll("#twikoo_container")[0])return;
@@ -3424,7 +3425,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
       let defaultPath = '';
       path = defaultPath || "decodeURI(window.location.pathname)"; //神奇的pathname 没错,twikoo这里就是字符串,不要乱动了
     }
-    twikoo.init(Object.assign(Object.assign({"js":"https://npm.elemecdn.com/twikoo@1.5.8","path":null,"envId":"blog-comments-2g6hg6f69e14fa46","placeholder":null}, {
+    twikoo.init(Object.assign(Object.assign({"js":"https://npm.elemecdn.com/twikoo@1.5.5","path":null,"envId":"blog-comments-2g6hg6f69e14fa46","placeholder":null}, {
       el: '#twikoo_container',
       path: path,
       placeholder: placeholder,
