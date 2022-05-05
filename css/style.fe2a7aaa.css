@@ -1672,6 +1672,9 @@ svg.loading {
   align-items: center;
 }
 #l_main .post .article-meta .new-meta-box .new-meta-item a img {
+  display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
+  display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
+  display: none;
   height: 16px;
   width: 16px;
   margin-right: 8px;
@@ -2100,6 +2103,11 @@ img.lazyload:not(.placeholder).loaded {
 }
 #l_main .prev-next section:hover {
   color: #ff5722;
+}
+#l_main .article .headimg-div {
+  display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
+  display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
+  display: none;
 }
 #l_main .article .prev-next {
   width: 100%;
