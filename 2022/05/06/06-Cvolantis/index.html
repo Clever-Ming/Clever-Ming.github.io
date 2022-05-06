@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
-  <link rel="canonical" href="https://clever-ming.gitee.io/2022/05/04/04-配置volantis/"/>
+  <link rel="canonical" href="https://clever-ming.gitee.io/2022/05/06/06-cvolantis/"/>
   <!-- 渲染优化 -->
     <meta http-equiv='x-dns-prefetch-control' content='on' />
       <link rel='dns-prefetch' href='https://npm.elemecdn.com'>
@@ -26,26 +26,26 @@
   
   <!-- Custom Files headBegin end-->
     <link rel="shortcut icon" type='image/x-icon' href="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/logo.ico">
-  <link rel="preload" href="/css/style.fe2a7aaa.css" as="style">
-  <link rel="preload" href="/_fonts/canva/MaShanZheng-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="/css/style.4bf0445b.css" as="style">
+  <link rel="preload" href="https://cdn.jsdelivr.net/gh/inkss/common@1/fonts/canva/MaShanZheng-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 <link rel="preload" href="https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/fonts/UbuntuMono/UbuntuMono-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 
   <!-- feed -->
   <!-- 页面元数据 -->
   <pjax>
-  <title>Volantis配置日记--Day4 - 配菜师的成长之路</title>
+  <title>Volantis个性化--Day1 - 配菜师的成长之路</title>
   <meta name="keywords" content="Volantis,配菜师">
-  <meta desc name="description" content="内容包括：音乐播放器配置、自定义字体配置。 - clever-ming - 配菜师的成长之路">
+  <meta desc name="description" content="内容包括：。 - clever-ming - 配菜师的成长之路">
   
 <meta property="og:type" content="article">
-<meta property="og:title" content="Volantis配置日记--Day4">
-<meta property="og:url" content="https://clever-ming.gitee.io/2022/05/04/04-%E9%85%8D%E7%BD%AEVolantis/index.html">
+<meta property="og:title" content="Volantis个性化--Day1">
+<meta property="og:url" content="https://clever-ming.gitee.io/2022/05/06/06-Cvolantis/index.html">
 <meta property="og:site_name" content="配菜师的成长之路">
-<meta property="og:description" content="内容包括：音乐播放器配置、自定义字体配置。">
+<meta property="og:description" content="内容包括：。">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png">
-<meta property="article:published_time" content="2022-05-03T16:00:00.000Z">
-<meta property="article:modified_time" content="2022-05-05T14:09:14.456Z">
+<meta property="article:published_time" content="2022-05-05T16:00:00.000Z">
+<meta property="article:modified_time" content="2022-05-06T08:45:14.008Z">
 <meta property="article:author" content="clever-ming">
 <meta property="article:tag" content="Volantis">
 <meta name="twitter:card" content="summary">
@@ -66,8 +66,8 @@
   contain-intrinsic-size: 10px 500px;
 }
 :root {
-  --color-site-body: #f4f4f4;
-  --color-site-bg: #f4f4f4;
+  --color-site-body: #f5f5f5;
+  --color-site-bg: #f5f5f5;
   --color-site-inner: #fff;
   --color-site-footer: #666;
   --color-card: #fff;
@@ -83,7 +83,7 @@
   --color-h6: #666;
   --color-p: #444;
   --color-list: #666;
-  --color-list-hl: #30ad91;
+  --color-list-hl: #36ac91;
   --color-meta: #888;
   --color-read-bkg: #e0d8c8;
   --color-read-post: #f8f1e2;
@@ -104,7 +104,7 @@
   background: transparent;
 }
 *::-webkit-scrollbar-thumb {
-  background: #3dd9b6;
+  background: #44d7b6;
   cursor: pointer;
   border-radius: 2px;
   -webkit-border-radius: 2px;
@@ -127,7 +127,7 @@ html >::-webkit-scrollbar-track-piece {
   background: transparent;
 }
 html >::-webkit-scrollbar-thumb {
-  background: #3dd9b6;
+  background: #44d7b6;
   cursor: pointer;
   border-radius: 2px;
   -webkit-border-radius: 2px;
@@ -156,7 +156,7 @@ body.modal-active {
   }
 }
 a {
-  color: #2092ec;
+  color: #2196f3;
   cursor: pointer;
   text-decoration: none;
   transition: all 0.28s ease;
@@ -750,7 +750,7 @@ button {
     --color-h6: rgba(255,255,255,0.6);
     --color-p: rgba(217,217,217,0.871);
     --color-list: rgba(217,217,217,0.871);
-    --color-list-hl: #63e0c4;
+    --color-list-hl: #69dfc4;
     --color-meta: rgba(191,191,191,0.871);
     --color-link: rgba(191,191,191,0.871);
   }
@@ -821,7 +821,7 @@ button {
   --color-h6: rgba(255,255,255,0.6);
   --color-p: rgba(217,217,217,0.871);
   --color-list: rgba(217,217,217,0.871);
-  --color-list-hl: #63e0c4;
+  --color-list-hl: #69dfc4;
   --color-meta: rgba(191,191,191,0.871);
   --color-link: rgba(191,191,191,0.871);
 }
@@ -885,14 +885,14 @@ button {
 }
 @font-face {
   font-family: 'MaShanZheng';
-  src: url("/_fonts/canva/MaShanZheng-Regular.woff2");
+  src: url("https://cdn.jsdelivr.net/gh/inkss/common@1/fonts/canva/MaShanZheng-Regular.woff2");
   font-weight: 'normal';
   font-style: 'normal';
   font-display: swap;
 }
 @font-face {
   font-family: 'SentyGoldenBell';
-  src: url("/_fonts/canva/SentyGoldenBell.woff2");
+  src: url("https://cdn.jsdelivr.net/gh/inkss/common@1/fonts/canva/SentyGoldenBell.woff2");
   font-weight: 'normal';
   font-style: 'normal';
   font-display: swap;
@@ -1096,7 +1096,7 @@ button {
   -moz-transition: all 0.28s ease;
   -o-transition: all 0.28s ease;
   -ms-transition: all 0.28s ease;
-  color: #3dd9b6;
+  color: #44d7b6;
 }
 .l_header .switcher >li >a:hover {
   border: none;
@@ -1276,7 +1276,7 @@ ul.m-pc >li>a {
 }
 ul.m-pc >li>a:active,
 ul.m-pc >li>a.active {
-  border-bottom: 2px solid #3dd9b6;
+  border-bottom: 2px solid #44d7b6;
 }
 ul.m-pc li:hover >ul.list-v,
 ul.list-v li:hover >ul.list-v {
@@ -1415,7 +1415,7 @@ ul.list-v >li>a:hover {
 }
 .l_header ul.nav-list-h>li >a:active,
 .l_header ul.nav-list-h>li >a.active {
-  color: #3dd9b6;
+  color: #44d7b6;
 }
 .l_header ul.nav-list-h>li:hover>a {
   color: var(--color-list-hl);
@@ -1726,8 +1726,8 @@ ul.list-v >li>a:hover {
 }
 
   </style>
-  <link rel="stylesheet" href="/css/style.fe2a7aaa.css" media="print" onload="this.media='all';this.onload=null">
-  <noscript><link rel="stylesheet" href="/css/style.fe2a7aaa.css"></noscript>
+  <link rel="stylesheet" href="/css/style.4bf0445b.css" media="print" onload="this.media='all';this.onload=null">
+  <noscript><link rel="stylesheet" href="/css/style.4bf0445b.css"></noscript>
     <script>
       let userColorScheme=localStorage.getItem("color-scheme")
       if(userColorScheme){
@@ -1805,9 +1805,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   volantis.GLOBAL_CONFIG ={
     debug: false,
-    cdn: {"js":{"app":"/js/app.3690b000.js","parallax":"/js/plugins/parallax.8bf0ab10.js","rightMenu":"/js/plugins/rightMenu.1d2dd3e0.js","rightMenus":"/js/plugins/rightMenus.48fa1716.js","sites":"/js/plugins/tags/sites.76bf19b8.js","friends":"/js/plugins/tags/friends.f372da57.js","contributors":"/js/plugins/tags/contributors.aec80453.js","search":"/js/search/hexo.06d40311.js"},"css":{"style":"/css/style.fe2a7aaa.css"}},
+    cdn: {"js":{"app":"/js/app.3690b000.js","parallax":"/js/plugins/parallax.8bf0ab10.js","rightMenu":"/js/plugins/rightMenu.1d2dd3e0.js","rightMenus":"/js/plugins/rightMenus.48fa1716.js","sites":"/js/plugins/tags/sites.76bf19b8.js","friends":"/js/plugins/tags/friends.f372da57.js","contributors":"/js/plugins/tags/contributors.aec80453.js","search":"/js/search/hexo.06d40311.js"},"css":{"style":"/css/style.4bf0445b.css"}},
     default: {"avatar":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/avatar/round/3442075.svg","link":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/cover/76b86c0226ffd.svg","image":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1651759893247),
+    lastupdate: new Date(1651847266310),
     sidebar: {
       for_page: ["blogger","category","tagcloud","webinfo"],
       for_post: ["toc"],
@@ -2599,7 +2599,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           
 <div id="l_main" class=''>
   <article itemscope itemtype="http://schema.org/Article" class="article post white-box reveal md shadow floatable blur article-type-post" id="post" itemscope itemprop="blogPost">
-  <link itemprop="mainEntityOfPage" href="https://clever-ming.gitee.io/2022/05/04/04-%E9%85%8D%E7%BD%AEVolantis/">
+  <link itemprop="mainEntityOfPage" href="https://clever-ming.gitee.io/2022/05/06/06-Cvolantis/">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="配菜师的成长之路">
   </span>
@@ -2620,7 +2620,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
     
       <h1 class="title" itemprop="name headline">
-        Volantis配置日记--Day4
+        Volantis个性化--Day1
       </h1>
       <div class='new-meta-box'>
         
@@ -2639,10 +2639,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
   <div class='new-meta-item category'>
     <i class="fa-solid fa-folder-open fa-fw" aria-hidden="true"></i>
-    <a class="category-link" href="/categories/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/">博客配置</a>
+    <a class="category-link" href="/categories/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE-%E8%BF%9B%E9%98%B6%E7%AF%87/">博客配置-进阶篇</a>
     
       <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-        <a href="/categories/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/" itemprop="url"><span itemprop="name">博客配置</span></a>
+        <a href="/categories/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE-%E8%BF%9B%E9%98%B6%E7%AF%87/" itemprop="url"><span itemprop="name">博客配置-进阶篇</span></a>
       </span>
     
   </div>
@@ -2655,13 +2655,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <div class="new-meta-item wordcount">
     <a class='notlink'>
       <i class="fa-solid fa-keyboard fa-fw" aria-hidden="true"></i>
-      <p>字数：2.7k 字</p>
+      <p>字数：115 字</p>
     </a>
   </div>
   <div class="new-meta-item readtime">
     <a class='notlink'>
       <i class="fa-solid fa-hourglass-half fa-fw" aria-hidden="true"></i>
-      <p>时长：11 分钟</p>
+      <p>时长：1 分钟</p>
     </a>
   </div>
 
@@ -2669,10 +2669,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           
         
           
-            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2022-05-04T00:00:00+08:00">
+            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2022-05-06T00:00:00+08:00">
   <a class='notlink'>
     <i class="fa-solid fa-calendar-alt fa-fw" aria-hidden="true"></i>
-    <p>发布于：2022年5月4日</p>
+    <p>发布于：2022年5月6日</p>
   </a>
 </div>
 
@@ -2683,7 +2683,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <div class="new-meta-item browse leancloud">
     <a class='notlink'>
       
-      <div id="lc-pv" data-title="Volantis配置日记--Day4" data-path="/2022/05/04/04-%E9%85%8D%E7%BD%AEVolantis/">
+      <div id="lc-pv" data-title="Volantis个性化--Day1" data-path="/2022/05/06/06-Cvolantis/">
         <i class="fa-solid fa-eye fa-fw" aria-hidden="true"></i>
         <span id='number'><i class="fa-solid fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span>
         次浏览
@@ -2704,151 +2704,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   <div id="layoutHelper-page-plugins"></div>
   <div id="post-body" itemprop="articleBody">
-    <p>如果能做到今天，那么你的博客基本配置基本上就算完成了。之后设置的东西都比较个性化一些。按需修改即可。</p>
-<h3 id="1-音乐播放器配置"><a href="#1-音乐播放器配置" class="headerlink" title="1.音乐播放器配置"></a>1.音乐播放器配置</h3><p>打开熟悉的<code>_config.volantis.yml</code> 文件，写入以下代码：</p>
-<p>重点关注的值：<code>enable</code>改为<code>true</code>，<code>server</code>选自你想要的，<code>id</code>为歌单号（QQ音乐为在线网页版歌单的url里，举个我歌单的例子：<a target="_blank" rel="noopener" href="https://y.qq.com/n/ryqq/playlist/8460285227%EF%BC%89">https://y.qq.com/n/ryqq/playlist/8460285227）</a></p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">plugins:</span></span><br><span class="line">  <span class="comment"># APlayer is only available in mainland China.</span></span><br><span class="line">  <span class="comment"># APlayer config: https://github.com/metowolf/MetingJS</span></span><br><span class="line">  <span class="attr">aplayer:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">js:</span></span><br><span class="line">      <span class="attr">aplayer:</span> <span class="string">volantis-static/libs/aplayer/dist/APlayer.min.js</span> <span class="comment"># https://npm.elemecdn.com/aplayer@1.10/dist/APlayer.min.js</span></span><br><span class="line">      <span class="attr">meting:</span> <span class="string">volantis-static/libs/meting/dist/Meting.min.js</span> <span class="comment"># https://npm.elemecdn.com/meting@2.0/dist/Meting.min.js</span></span><br><span class="line">    <span class="attr">css:</span> <span class="string">volantis-static/libs/aplayer/dist/APlayer.min.css</span> <span class="comment"># https://npm.elemecdn.com/aplayer@1.10/dist/APlayer.min.css</span></span><br><span class="line">    <span class="comment"># Required</span></span><br><span class="line">    <span class="attr">server:</span> <span class="string">tencent</span>   <span class="comment"># netease, tencent, kugou, xiami, baidu</span></span><br><span class="line">    <span class="attr">type:</span> <span class="string">playlist</span>    <span class="comment"># song, playlist, album, search, artist</span></span><br><span class="line">    <span class="attr">id:</span> <span class="number">8460285227</span>    <span class="comment"># song id / playlist id / album id / search keyword</span></span><br><span class="line">    <span class="comment"># Optional</span></span><br><span class="line">    <span class="attr">fixed:</span> <span class="literal">false</span>      <span class="comment"># enable fixed mode</span></span><br><span class="line">    <span class="attr">theme:</span> <span class="string">&#x27;#1BCDFC&#x27;</span>  <span class="comment"># main color</span></span><br><span class="line">    <span class="attr">autoplay:</span> <span class="literal">false</span>   <span class="comment"># audio autoplay</span></span><br><span class="line">    <span class="attr">order:</span> <span class="string">list</span>       <span class="comment"># player play order, values: &#x27;list&#x27;, &#x27;random&#x27;</span></span><br><span class="line">    <span class="attr">loop:</span> <span class="string">all</span>         <span class="comment"># player loop play, values: &#x27;all&#x27;, &#x27;one&#x27;, &#x27;none&#x27;</span></span><br><span class="line">    <span class="attr">volume:</span> <span class="number">0.7</span>       <span class="comment"># default volume, notice that player will remember user setting, default volume will not work after user set volume themselves</span></span><br><span class="line">    <span class="attr">list_max_height:</span> <span class="string">320px</span> <span class="comment"># list max height</span></span><br><span class="line">    <span class="attr">list_folded:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">autoHide:</span> <span class="literal">true</span>    <span class="comment"># hide automaticaly</span></span><br></pre></td></tr></table></figure>
+    <p>如果你有参考我的日记，你会发现，基础的配置已经满足不了个性化的需求了。那么我们就得开启无穷无尽的个性化道路。</p>
+<p>进入性化之前，请认真阅读并理解下方的官方文档。这是我们自定义的开始！</p>
+<p>进入个性化之前，请认真阅读并理解下方的官方文档。这是我们自定义的开始！</p>
+<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220505223115128.png' data-fancybox='default' data-caption='image-20220505223115128'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220505223115128.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220505223115128.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220505223115128"></a><span class='image-caption'>image-20220505223115128</span></div></div>
 
-<p>注意：VIP音乐有可能没法获取，所以尽量把非付费音乐放进歌单里。</p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220502153350407.png' data-fancybox='default' data-caption='image-20220502153350407'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220502153350407.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220502153350407.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220502153350407"></a><span class='image-caption'>image-20220502153350407</span></div></div>
-
-<p>效果如图所示↑，接下来你就可以在你的blog里放音乐了！</p>
-<p><em>温馨提示：因为他的js是国外的cdn引入的，所以偶尔可能会炸，访问很慢，加载不出来。如果你配置的是网易云的API，那么也可能会崩，这些都是正常现象。</em></p>
-<h3 id="2-字体配置（看看就好！慎学！后有巨坑！！直接看末尾2-6！！！）"><a href="#2-字体配置（看看就好！慎学！后有巨坑！！直接看末尾2-6！！！）" class="headerlink" title="2. 字体配置（看看就好！慎学！后有巨坑！！直接看末尾2.6！！！）"></a>2. 字体配置（看看就好！慎学！后有巨坑！！直接看末尾2.6！！！）</h3><p><strong>从本节开始，越来越多个性化的东西了，错路也很多。请谨慎跟学！</strong></p>
-<p>总而言之我花了很长时间明白字体如何配置、修改，但是最后最好的解决方法就是自建CDN。</p>
-<h4 id="2-1标题字体配置"><a href="#2-1标题字体配置" class="headerlink" title="2.1标题字体配置"></a>2.1标题字体配置</h4><p>默认字体还不错，但是如果想要更好看的个性字体的话，就需要配置一下。</p>
-<p>请参考这个大佬的博客：<a target="_blank" rel="noopener" href="https://inkss.cn/blog/bbb93a9b/">网站自定义字体及推荐 - 枋柚梓的猫会发光 (inkss.cn)</a>，样式灰常详细！</p>
-<p>可惜大佬的加载有点慢，所以我截个图看大家看看效果。</p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220502154837954.png' data-fancybox='default' data-caption='image-20220502154837954'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220502154837954.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220502154837954.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220502154837954"></a><span class='image-caption'>image-20220502154837954</span></div></div>
-
-<p>看大佬博客你可能会看不懂，我来手把手教你</p>
-<p>可以直接在<code>_config.volantis.yml</code> 文件里引用，，我使用的是<code>MaShanZheng</code>，如下代码即可配置：</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">custom_css:</span></span><br><span class="line">  <span class="attr">fontfamily:</span></span><br><span class="line">    <span class="attr">logofont:</span></span><br><span class="line">      <span class="attr">fontfamily:</span> <span class="string">&#x27;MaShanZheng&#x27;</span></span><br><span class="line">      <span class="attr">name:</span> <span class="string">&#x27;MaShanZheng&#x27;</span></span><br><span class="line">      <span class="attr">url:</span> <span class="string">https://cdn.jsdelivr.net/gh/inkss/common@1/fonts/canva/MaShanZheng-Regular.woff2</span></span><br><span class="line">      <span class="attr">weight:</span> <span class="string">normal</span></span><br><span class="line">      <span class="attr">style:</span> <span class="string">normal</span></span><br></pre></td></tr></table></figure>
-
-<p>效果如下，这是没变化？</p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220503102230012.png' data-fancybox='default' data-caption='image-20220503102230012'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220503102230012.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220503102230012.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220503102230012"></a><span class='image-caption'>image-20220503102230012</span></div></div>
-
-<p>其实变化了，只是加载很慢······</p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220503102334132.png' data-fancybox='default' data-caption='image-20220503102334132'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220503102334132.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220503102334132.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220503102334132"></a><span class='image-caption'>image-20220503102334132</span></div></div>
-
-
-
-<h4 id="2-2-通过下载字体使得加载变快（想快速建立blog下方别看，跳到2-6）"><a href="#2-2-通过下载字体使得加载变快（想快速建立blog下方别看，跳到2-6）" class="headerlink" title="2.2 通过下载字体使得加载变快（想快速建立blog下方别看，跳到2.6）"></a>2.2 通过下载字体使得加载变快（想快速建立blog下方别看，跳到2.6）</h4><p>那么想加载快一点怎么办呢？</p>
-<p>两种方法：</p>
-<ul>
-<li>自建CDN （这个最好！！！）</li>
-<li>调用本地字体（本地确实快，但是部署了之后，新用户第一次加载比较慢······这个就是一个坑）</li>
-</ul>
-<p>自建CDN更好，但是小白向一点吧，我们选择第二种方法。下载字体到文件里。</p>
-<p>打开大佬的github网站：<a target="_blank" rel="noopener" href="https://github.com/inkss/common">inkss&#x2F;common: 公共仓库 (github.com)</a>，根据下图的提示下载下来。</p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220503103250343.png' data-fancybox='default' data-caption='image-20220503103250343'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220503103250343.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220503103250343.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220503103250343"></a><span class='image-caption'>image-20220503103250343</span></div></div>
-
-<p>然后解压出来，把fonts文件，复制出来，放入你的blog根目录文件里的<code>source</code>里，也就是和新建的page一个文件夹里（按需放置，不用全放）</p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220503103742257.png' data-fancybox='default' data-caption='image-20220503103742257'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220503103742257.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220503103742257.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220503103742257"></a><span class='image-caption'>image-20220503103742257</span></div></div>
-
-<p>字体放好了，那么就要配置。</p>
-<p>打开字体引用文件：<a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/inkss/common@1/css/fontlocal.css">https://cdn.jsdelivr.net/gh/inkss/common@1/css/fontlocal.css</a></p>
-<p>我以<code>MaShanZheng</code>为例，找到他的url括号内的内容。</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">@font-face</span> &#123;</span><br><span class="line">  <span class="attribute">font-family</span>: <span class="string">&#x27;MaShanZheng&#x27;</span>;</span><br><span class="line">  <span class="attribute">font-style</span>: normal;</span><br><span class="line">  <span class="attribute">font-weight</span>: normal;</span><br><span class="line">  <span class="attribute">font-display</span>: swap;</span><br><span class="line">  <span class="attribute">src</span>: <span class="built_in">url</span>(<span class="string">/fonts/canva/MaShanZheng-Regular.woff2</span>) <span class="built_in">format</span>(<span class="string">&#x27;woff2&#x27;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>打开<code>_config.volantis.yml</code> 文件，修改一下代码，把url粘贴进去就好了：</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">custom_css:</span></span><br><span class="line">  <span class="attr">fontfamily:</span></span><br><span class="line">    <span class="attr">logofont:</span></span><br><span class="line">      <span class="attr">fontfamily:</span> <span class="string">&#x27;MaShanZheng&#x27;</span></span><br><span class="line">      <span class="attr">name:</span> <span class="string">&#x27;MaShanZheng&#x27;</span></span><br><span class="line">      <span class="attr">url:</span> <span class="string">/fonts/canva/MaShanZheng-Regular.woff2</span></span><br><span class="line">      <span class="attr">weight:</span> <span class="string">normal</span></span><br><span class="line">      <span class="attr">style:</span> <span class="string">normal</span></span><br></pre></td></tr></table></figure>
-
-<p>然后三剑客<code>hexo clean</code>，<code>hexo g</code>，<code>hexo s</code>一下，就会发现本地加载很快啦！</p>
-<h4 id="2-3副标题字体配置—-修改css方法"><a href="#2-3副标题字体配置—-修改css方法" class="headerlink" title="2.3副标题字体配置—-修改css方法"></a>2.3副标题字体配置—-修改css方法</h4><p>又有一个问题出现了，加载快了，但是副标题没有加载呀！</p>
-<p>这是因为css的缘故，我们需要修改css样式。</p>
-<p>把鼠标放在副标题的位置上，右击（Volantis里要ctrl+右击），点击检查。</p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220503105311784.png' data-fancybox='default' data-caption='image-20220503105311784'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220503105311784.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220503105311784.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220503105311784"></a><span class='image-caption'>image-20220503105311784</span></div></div>
-
-<p>大概会有这样一个界面，不同的浏览器大差不差。</p>
-<p>主要是找到他的css对应的部件。 部件为<code>.cover-wrapper .cover-body .subtitle</code></p>
-<p>打开blog文件夹，根据目录找，我的是<code>node_modules\hexo-theme-volantis\source\css\_first</code>这个目录。总而言之，就是最核心的就是<code>hexo-theme-volantis\source\css\_first</code>，里面有个名为<code>cover_first.styl</code>的文件，这个里面就有对应的css。</p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220503105858517.png' data-fancybox='default' data-caption='image-20220503105858517'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220503105858517.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220503105858517.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220503105858517"></a><span class='image-caption'>image-20220503105858517</span></div></div>
-
-<p>大概在103行的位置，也可以很具关键词查找，找到对应的<code>.cover-wrapper .cover-body .subtitle</code>里的配置。</p>
-<p>加上<code>font-size</code>同位置加上<code>font-family: $fontfamily-logo</code>，就表示和title一起变化字体了。</p>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.cover-wrapper</span> <span class="selector-class">.cover-body</span></span><br><span class="line">  ······</span><br><span class="line">  <span class="selector-class">.subtitle</span></span><br><span class="line">   <span class="attribute">font-family</span>: <span class="variable">$fontfamily</span>-logo</span><br><span class="line">   <span class="attribute">font-size</span>: <span class="variable">$fontsize</span>-root * <span class="number">1.25</span></span><br></pre></td></tr></table></figure>
-
-<p>同理，如果想把标题放大一点，就在<code>font-size: $fontsize-root * 1.25</code>后面的数字改大一点。设置完毕保存好。</p>
-<p>三剑客<code>hexo clean</code>，<code>hexo g</code>，<code>hexo s</code>一下。</p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220503111151937.png' data-fancybox='default' data-caption='image-20220503111151937'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220503111151937.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220503111151937.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220503111151937"></a><span class='image-caption'>image-20220503111151937</span></div></div>
-
-<p>样式就改好啦！</p>
-<h4 id="2-4-修改不同样式的字体"><a href="#2-4-修改不同样式的字体" class="headerlink" title="2.4 修改不同样式的字体"></a>2.4 修改不同样式的字体</h4><p><strong>正文和代码字体同理。直接用上方<code>2.2</code>的方法配置即可。样式自定义用<code>2.3</code>的方法。</strong></p>
-<p>此时我又发现了一个问题，就是在导航栏处</p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220504081712326.png' data-fancybox='default' data-caption='image-20220504081712326'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220504081712326.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220504081712326.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220504081712326"></a><span class='image-caption'>image-20220504081712326</span></div></div>
-
-<p>导航栏的logo文字，他是和上面设置的是一样的，F12检查一下。</p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220504081827573.png' data-fancybox='default' data-caption='image-20220504081827573'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220504081827573.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220504081827573.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220504081827573"></a><span class='image-caption'>image-20220504081827573</span></div></div>
-
-<p>找到对应的css位置，可以发现是在<code>hexo-theme-volantis\source\css\_first</code>，里面有个名为<code>navbar_first.styl</code>的文件，大约在60行，对应的css</p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220504082021688.png' data-fancybox='default' data-caption='image-20220504082021688'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220504082021688.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220504082021688.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220504082021688"></a><span class='image-caption'>image-20220504082021688</span></div></div>
-
-<p>之所以他会一起变，是因为他的css设置是和<code>2.1</code>的主页标题设置的是一个<code>$fontfamily-logo</code>，如果我不想和他一样，需要怎么配置呢？</p>
-<p>对面两种不同的情况，以及群友的解答，我摸索出两种方法：</p>
-<ul>
-<li>注入一行高优先级的css，配置过该字体，可调用的情况</li>
-<li>重新创建一个<code>$fontfamily</code>，适用于没有配置字体的情况</li>
-</ul>
-<h5 id="2-4-1-注入高优先级的css"><a href="#2-4-1-注入高优先级的css" class="headerlink" title="2.4.1 注入高优先级的css"></a>2.4.1 注入高优先级的css</h5><p>（如果你从没接触过styl也没事，css是可以从外部引用的）</p>
-<p>配置过字体的意思就是说，找到<code>_config.volantis.yml</code> 文件，里面的配置<code>custom_css</code>&#x2F;<code>fontfamily</code>中有没有你希望调用的，如果有，那就是已经配置过的。如下图红框内部所示。</p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220504083839514.png' data-fancybox='default' data-caption='image-20220504083839514'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220504083839514.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220504083839514.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220504083839514"></a><span class='image-caption'>image-20220504083839514</span></div></div>
-
-<p>假设我们要让导航栏的LOGO调用<code>UbuntuMono</code>字体，那么可以看到，他是已经被调用配置了的。</p>
-<p>首先我们打开blog根目录下的<code>source</code>文件里，创建一个<code>customized</code>文件夹，內部以后放自己的需要添加的css文件。再到文件夹内创建一个css文件，我取名为custom.css，如下图所示</p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220504084319305.png' data-fancybox='default' data-caption='image-20220504084319305'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220504084319305.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220504084319305.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220504084319305"></a><span class='image-caption'>image-20220504084319305</span></div></div>
-
-<p>通过F12，我们得知了导航栏logo的定位为<code>.l_header #wrapper .nav-main .title</code>，那么我们就在css文件里写下如下代码：</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.l_header</span> <span class="selector-id">#wrapper</span> <span class="selector-class">.nav-main</span> <span class="selector-class">.title</span> &#123;</span><br><span class="line">    <span class="attribute">font-family</span>: UbuntuMono <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p> 注意：这就等于是精准定位，然后用一个<code>!important</code>提高该css的优先级，从而达到更改字体的目的。</p>
-<p>写好了css，我们还需打开blog根目录下的<code>_config.yml</code>文件，再代码最底部添加如下代码：</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">import:</span></span><br><span class="line">  <span class="attr">head_begin:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&lt;link</span> <span class="string">rel=&quot;stylesheet&quot;</span> <span class="string">href=&quot;/customized/custom.css&quot;&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>意思是连接式调用css（调用外部js和这个类似，以后再说），href内就是我们css的文件路径。</p>
-<p>配置完毕之后三剑客<code>hexo clean</code>，<code>hexo g</code>，<code>hexo s</code>一下，就发发现字体改变了。</p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220504090936260.png' data-fancybox='default' data-caption='image-20220504090936260'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220504090936260.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220504090936260.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220504090936260"></a><span class='image-caption'>image-20220504090936260</span></div></div>
-
-<p>导航栏logo字体和正文标题一样，说明配置成功！</p>
-<h5 id="2-4-2-重新创建一个-fontfamily"><a href="#2-4-2-重新创建一个-fontfamily" class="headerlink" title="2.4.2 重新创建一个$fontfamily"></a>2.4.2 重新创建一个<code>$fontfamily</code></h5><p>如果上面一个你想要的字体都没有，那么可能要用到第二个方法。</p>
-<p>找到根目录下的<code>node_modules\hexo-theme-volantis\source\css\_first</code>内部的<code>fontfamily_first.styl</code>文件，末尾添加如下代码：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">if hexo-config(&#x27;custom_css.fontfamily.barfont&#x27;)</span><br><span class="line">  if hexo-config(&#x27;custom_css.fontfamily.barfont.name&#x27;)</span><br><span class="line">    @font-face</span><br><span class="line">      font-family: hexo-config(&#x27;custom_css.fontfamily.barfont.name&#x27;)</span><br><span class="line">      src: url(hexo-config(&#x27;custom_css.fontfamily.barfont.url&#x27;))</span><br><span class="line">      font-weight: hexo-config(&#x27;custom_css.fontfamily.barfont.weight&#x27;)</span><br><span class="line">      font-style: hexo-config(&#x27;custom_css.fontfamily.barfont.style&#x27;)</span><br><span class="line">      font-display: swap</span><br></pre></td></tr></table></figure>
-
-<p>大概意思就是创建一个名为<code>barfont</code>的新<code>fontfamily</code>，用于识别<code>_config.volantis.yml</code>里的配置（样式很接近）。</p>
-<p>再找到根目录下的<code>node_modules\hexo-theme-volantis\source\css\_defines</code>内部的<code>fonts.styl</code>文件，中间添加如下代码：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$fontfamily-bar = Menlo, Monaco, monospace, courier, sans-serif</span><br><span class="line">if hexo-config(&#x27;custom_css.fontfamily.barfont&#x27;)</span><br><span class="line">  if hexo-config(&#x27;custom_css.fontfamily.barfont.fontfamily&#x27;)</span><br><span class="line">    $fontfamily-bar = convert(hexo-config(&#x27;custom_css.fontfamily.barfont.fontfamily&#x27;)), Helvetica, monospace</span><br></pre></td></tr></table></figure>
-
-<p>这个是给新样式<code>$fontfamily-bar</code>设定默认值，它默认是按照<code>Menlo, Monaco, monospace, courier, sans-serif</code>的顺序选取。如果<code>_config.volantis.yml</code>里有配置，那么<strong>配置的字体</strong>会放在最开头。</p>
-<p>在<code>hexo-theme-volantis\source\css\_first\navbar_first.styl</code>的文件，大约在60行，修改对应的styl：</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.nav-main</span> <span class="selector-class">.title</span></span><br><span class="line">  ······</span><br><span class="line">  <span class="attribute">font-family</span>: $fontfamily-bar</span><br></pre></td></tr></table></figure>
-
-<p>修改<code>font-family</code>里为创建的新<code>$fontfamily-bar</code></p>
-<p>最最后一步，回到<code>_config.volantis.yml</code> 文件，我需要的字体为<code>&quot;SentyGoldenBell&quot;</code>，所以配置如下代码：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">custom_css:</span><br><span class="line">  fontfamily:</span><br><span class="line">    ......</span><br><span class="line">    barfont:</span><br><span class="line">      fontfamily: &#x27;&quot;SentyGoldenBell&quot;&#x27;</span><br><span class="line">      name: &#x27;SentyGoldenBell&#x27;</span><br><span class="line">      url: /fonts/canva/SentyGoldenBell.woff2</span><br><span class="line">      weight: normal</span><br><span class="line">      style: normal</span><br></pre></td></tr></table></figure>
-
-<p>这就等于你创建了一个新的<code>fontfamily</code>，名字叫<code>barfont</code>，引用样式为<code>$fontfamily-bar</code></p>
-<p>三剑客<code>hexo clean</code>，<code>hexo g</code>，<code>hexo s</code>一下。</p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220504095605753.png' data-fancybox='default' data-caption='image-20220504095605753'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220504095605753.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220504095605753.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220504095605753"></a><span class='image-caption'>image-20220504095605753</span></div></div>
-
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220504095622095.png' data-fancybox='default' data-caption='image-20220504095622095'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220504095622095.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220504095622095.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220504095622095"></a><span class='image-caption'>image-20220504095622095</span></div></div>
-
-<p>然后你会发现，你成功字体自定义了。样式是区分开的。</p>
-<h4 id="2-5-字体配置实战作业"><a href="#2-5-字体配置实战作业" class="headerlink" title="2.5 字体配置实战作业"></a>2.5 字体配置实战作业</h4><p>小明希望更改<code>每日一句</code>的字体样式和<code>主页logo</code>字体样式一样，应该怎么做呢？</p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220504101250176.png' data-fancybox='default' data-caption='image-20220504101250176'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220504101250176.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220504101250176.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220504101250176"></a><span class='image-caption'>image-20220504101250176</span></div></div>
-
-<p>参考答案：通过F12进行定位，发现处在<code>.widget.blogger .content .text :first-child</code>里，打开<code>\node_modules\hexo-theme-volantis\source\css\_style\_layout\sidebar.styl</code>，定位，大约在147行左右</p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220504101624298.png' data-fancybox='default' data-caption='image-20220504101624298'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220504101624298.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220504101624298.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220504101624298"></a><span class='image-caption'>image-20220504101624298</span></div></div>
-
-<p>在该处添加如下代码：</p>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">font-family</span>: <span class="variable">$fontfamily</span>-logo</span><br></pre></td></tr></table></figure>
-
-<p>然后保存，重新三剑客即可修改成功！</p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220504101743828.png' data-fancybox='default' data-caption='image-20220504101743828'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220504101743828.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220504101743828.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220504101743828"></a><span class='image-caption'>image-20220504101743828</span></div></div>
-
-<h4 id="2-6-巨坑"><a href="#2-6-巨坑" class="headerlink" title="2.6 巨坑"></a>2.6 巨坑</h4><p>最后部署在gitee上还是初次加载慢，自建cdn吧，孩子。别走我的老路······</p>
-<p>还有！不推荐修改主题内的styl文件，因为以后主题是会更新的！！！更新了之后可能得重新设置，建议外部引用styl或者css来操作！！！！</p>
-<p><strong>吐血300000升…….</strong></p>
-<p><strong>Day 4 结束！欣赏一下自己的博客吧！</strong>后面的我每次看到这篇blog都会没心情······</p>
 
 
   </div>
@@ -2881,10 +2741,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateModified" datetime="2022-05-05T22:09:14+08:00">
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2022-05-06T16:45:14+08:00">
   <a class='notlink'>
     <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
-    <p>更新于：2022年5月5日</p>
+    <p>更新于：2022年5月6日</p>
   </a>
 </div>
 
@@ -2904,13 +2764,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <div class="new-meta-item wordcount">
     <a class='notlink'>
       <i class="fa-solid fa-keyboard fa-fw" aria-hidden="true"></i>
-      <p>字数：2.7k 字</p>
+      <p>字数：115 字</p>
     </a>
   </div>
   <div class="new-meta-item readtime">
     <a class='notlink'>
       <i class="fa-solid fa-hourglass-half fa-fw" aria-hidden="true"></i>
-      <p>时长：11 分钟</p>
+      <p>时长：1 分钟</p>
     </a>
   </div>
 
@@ -2926,24 +2786,18 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   
   
+    
+    
+  
 
   
     <div class="prev-next">
       
-        <a class='prev' href='/2022/05/05/05-%E9%85%8D%E7%BD%AEVolantis/'>
-          <p class='title'><i class="fa-solid fa-chevron-left" aria-hidden="true"></i>Volantis配置日记--Day5</p>
+      
+        <a class='next' href='/2022/05/05/05-volantis/'>
+          <p class='title'>Volantis配置日记--Day5<i class="fa-solid fa-chevron-right" aria-hidden="true"></i></p>
           <p class='content'>在开启今天之前，先完成一件事情，那就是买一个自己喜欢的域名，并且备案。备案的话时间比较久（10天左右），所以最好先完成，自定义域名的话需要。
 1.购买域名并备案我的域名和备案全是在阿里云上完成的...</p>
-        </a>
-      
-      
-        <a class='next' href='/2022/05/01/03-%E9%85%8D%E7%BD%AEVolantis/'>
-          <p class='title'>Volantis配置日记--Day3<i class="fa-solid fa-chevron-right" aria-hidden="true"></i></p>
-          <p class='content'>欢迎来到第三天！按照进度，你应该也发布了文章啦。有了文章，那么展示给别人看，就需要有评论区吧。
-1. 评论区配置官方文档：
-
-目前共支持 14 款评论系统：
-artalk, giscus, be...</p>
         </a>
       
     </div>
@@ -2959,7 +2813,7 @@ artalk, giscus, be...</p>
   
   <article class="post white-box shadow floatable blur" id="comments">
     <span hidden>
-      <meta itemprop="discussionUrl" content="/2022/05/04/04-%E9%85%8D%E7%BD%AEVolantis/index.html#comments">
+      <meta itemprop="discussionUrl" content="/2022/05/06/06-Cvolantis/index.html#comments">
     </span>
     <p ct><i class='fas fa-comments'></i> 评论区</p>
     
@@ -2977,29 +2831,25 @@ artalk, giscus, be...</p>
 <aside id='l_side' itemscope itemtype="http://schema.org/WPSideBar">
   
   
+
+  
     
     
 
 
 
-  <section class="widget toc-wrapper shadow floatable blur desktop mobile pjax" id="toc-div" >
-    
-  <header>
-    
-      <i class="fa-solid fa-list fa-fw" aria-hidden="true"></i><span class='name'>本文目录</span>
-    
-  </header>
-
-
-    <div class='content'>
-        <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8%E9%85%8D%E7%BD%AE"><span class="toc-text">1.音乐播放器配置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E5%AD%97%E4%BD%93%E9%85%8D%E7%BD%AE%EF%BC%88%E7%9C%8B%E7%9C%8B%E5%B0%B1%E5%A5%BD%EF%BC%81%E6%85%8E%E5%AD%A6%EF%BC%81%E5%90%8E%E6%9C%89%E5%B7%A8%E5%9D%91%EF%BC%81%EF%BC%81%E7%9B%B4%E6%8E%A5%E7%9C%8B%E6%9C%AB%E5%B0%BE2-6%EF%BC%81%EF%BC%81%EF%BC%81%EF%BC%89"><span class="toc-text">2. 字体配置（看看就好！慎学！后有巨坑！！直接看末尾2.6！！！）</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#2-1%E6%A0%87%E9%A2%98%E5%AD%97%E4%BD%93%E9%85%8D%E7%BD%AE"><span class="toc-text">2.1标题字体配置</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-2-%E9%80%9A%E8%BF%87%E4%B8%8B%E8%BD%BD%E5%AD%97%E4%BD%93%E4%BD%BF%E5%BE%97%E5%8A%A0%E8%BD%BD%E5%8F%98%E5%BF%AB%EF%BC%88%E6%83%B3%E5%BF%AB%E9%80%9F%E5%BB%BA%E7%AB%8Bblog%E4%B8%8B%E6%96%B9%E5%88%AB%E7%9C%8B%EF%BC%8C%E8%B7%B3%E5%88%B02-6%EF%BC%89"><span class="toc-text">2.2 通过下载字体使得加载变快（想快速建立blog下方别看，跳到2.6）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-3%E5%89%AF%E6%A0%87%E9%A2%98%E5%AD%97%E4%BD%93%E9%85%8D%E7%BD%AE%E2%80%94-%E4%BF%AE%E6%94%B9css%E6%96%B9%E6%B3%95"><span class="toc-text">2.3副标题字体配置—-修改css方法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-4-%E4%BF%AE%E6%94%B9%E4%B8%8D%E5%90%8C%E6%A0%B7%E5%BC%8F%E7%9A%84%E5%AD%97%E4%BD%93"><span class="toc-text">2.4 修改不同样式的字体</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#2-4-1-%E6%B3%A8%E5%85%A5%E9%AB%98%E4%BC%98%E5%85%88%E7%BA%A7%E7%9A%84css"><span class="toc-text">2.4.1 注入高优先级的css</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#2-4-2-%E9%87%8D%E6%96%B0%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA-fontfamily"><span class="toc-text">2.4.2 重新创建一个$fontfamily</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-5-%E5%AD%97%E4%BD%93%E9%85%8D%E7%BD%AE%E5%AE%9E%E6%88%98%E4%BD%9C%E4%B8%9A"><span class="toc-text">2.5 字体配置实战作业</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-6-%E5%B7%A8%E5%9D%91"><span class="toc-text">2.6 巨坑</span></a></li></ol></li></ol>
-    </div>
-  </section>
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
 
   
 
 
 <!-- 没有 pjax 占位会报错 万恶的 pjax -->
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
 
   <div class="pjax">
     <!-- pjax占位 -->
@@ -3109,17 +2959,8 @@ artalk, giscus, be...</p>
             
           
             
-              <a href="/MyLove/"
-                class="social fas fa-heart flat-btn"
-                target="_blank"
-                rel="external nofollow noopener noreferrer" itemprop="url">
-                
-              </a>
-            
-          
-            
-              <a href="https://space.bilibili.com/87679554"
-                class="social fab fa-bilibili flat-btn"
+              <a href="https://github.com/Clever-Ming"
+                class="social fab fa-github flat-btn"
                 target="_blank"
                 rel="external nofollow noopener noreferrer" itemprop="url">
                 
@@ -3149,7 +2990,7 @@ artalk, giscus, be...</p>
     
       
         <div class='copyright'>
-        <p><a href="/">Copyright © since 2017 XXX</a></p>
+        <p><a href="/">Copyright © since 2022 Ms</a></p>
 
         </div>
       
@@ -4402,7 +4243,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"配菜师的成长之路","url":"https://clever-ming.gitee.io/","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"clever-ming","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://clever-ming.gitee.io/","sameAs":["https://github.com/volantis-x"],"description":"个人博客"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://clever-ming.gitee.io/","name":"配菜师的成长之路"}},{"@type":"ListItem","position":2,"item":{"@id":"https://clever-ming.gitee.io/categories/博客配置/","name":"博客配置"}},{"@type":"ListItem","position":3,"item":{"@id":"https://clever-ming.gitee.io/2022/05/04/04-配置Volantis/","name":"Volantis配置日记--Day4"}}]},{"@context":"http://schema.org","@type":"BlogPosting","headline":"Volantis配置日记--Day4","description":"内容包括：音乐播放器配置、自定义字体配置。","datePublished":"2022-05-03T16:00:00.000Z","dateModified":"2022-05-05T14:09:14.456Z","inLanguage":["zh-CN","en","zh-HK","zh-TW","default"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://clever-ming.gitee.io/2022/05/04/04-%E9%85%8D%E7%BD%AEVolantis/"},"author":{"@type":"Person","name":"clever-ming","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://clever-ming.gitee.io/"},"publisher":{"@type":"Organization","name":"配菜师的成长之路","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://clever-ming.gitee.io/2022/05/04/04-%E9%85%8D%E7%BD%AEVolantis/","wordCount":0,"articleSection":"博客配置","keywords":"Volantis","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"配菜师的成长之路","url":"https://clever-ming.gitee.io/","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"clever-ming","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://clever-ming.gitee.io/","sameAs":["https://github.com/volantis-x"],"description":"个人博客"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://clever-ming.gitee.io/","name":"配菜师的成长之路"}},{"@type":"ListItem","position":2,"item":{"@id":"https://clever-ming.gitee.io/categories/博客配置-进阶篇/","name":"博客配置-进阶篇"}},{"@type":"ListItem","position":3,"item":{"@id":"https://clever-ming.gitee.io/2022/05/06/06-Cvolantis/","name":"Volantis个性化--Day1"}}]},{"@context":"http://schema.org","@type":"BlogPosting","headline":"Volantis个性化--Day1","description":"内容包括：。","datePublished":"2022-05-05T16:00:00.000Z","dateModified":"2022-05-06T08:45:14.008Z","inLanguage":["zh-CN","en","zh-HK","zh-TW","default"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://clever-ming.gitee.io/2022/05/06/06-Cvolantis/"},"author":{"@type":"Person","name":"clever-ming","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://clever-ming.gitee.io/"},"publisher":{"@type":"Organization","name":"配菜师的成长之路","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://clever-ming.gitee.io/2022/05/06/06-Cvolantis/","wordCount":0,"articleSection":"博客配置-进阶篇","keywords":"Volantis","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 

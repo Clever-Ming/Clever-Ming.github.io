@@ -4,8 +4,8 @@
   <meta name="generator" content="Hexo 6.1.0">
   <meta charset="utf-8">
   <!-- SEO相关 -->
-  
-  <link rel="canonical" href="https://clever-ming.gitee.io/2022/05/01/03-配置volantis/"/>
+  <meta name="robots" content="noindex,follow">
+  <link rel="canonical" href="https://clever-ming.gitee.io/categories/博客配置-进阶篇/"/>
   <!-- 渲染优化 -->
     <meta http-equiv='x-dns-prefetch-control' content='on' />
       <link rel='dns-prefetch' href='https://npm.elemecdn.com'>
@@ -26,28 +26,26 @@
   
   <!-- Custom Files headBegin end-->
     <link rel="shortcut icon" type='image/x-icon' href="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/logo.ico">
-  <link rel="preload" href="/css/style.fe2a7aaa.css" as="style">
-  <link rel="preload" href="/_fonts/canva/MaShanZheng-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="/css/style.4bf0445b.css" as="style">
+  <link rel="preload" href="https://cdn.jsdelivr.net/gh/inkss/common@1/fonts/canva/MaShanZheng-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 <link rel="preload" href="https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/fonts/UbuntuMono/UbuntuMono-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 
   <!-- feed -->
   <!-- 页面元数据 -->
   <pjax>
-  <title>Volantis配置日记--Day3 - 配菜师的成长之路</title>
-  <meta name="keywords" content="Volantis,配菜师">
-  <meta desc name="description" content="内容包括：评论区配置、搜索栏配置、网站基本访问信息统计配置。 - clever-ming - 配菜师的成长之路">
+  <title>分类：博客配置-进阶篇 - 配菜师的成长之路</title>
+  <meta name="keywords" content="配菜师">
+  <meta desc name="description" content="个人博客 - clever-ming - 配菜师的成长之路">
   
-<meta property="og:type" content="article">
-<meta property="og:title" content="Volantis配置日记--Day3">
-<meta property="og:url" content="https://clever-ming.gitee.io/2022/05/01/03-%E9%85%8D%E7%BD%AEVolantis/index.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="配菜师的成长之路">
+<meta property="og:url" content="https://clever-ming.gitee.io/categories/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE-%E8%BF%9B%E9%98%B6%E7%AF%87/index.html">
 <meta property="og:site_name" content="配菜师的成长之路">
-<meta property="og:description" content="内容包括：评论区配置、搜索栏配置、网站基本访问信息统计配置。">
+<meta property="og:description" content="个人博客">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png">
-<meta property="article:published_time" content="2022-04-30T16:00:00.000Z">
-<meta property="article:modified_time" content="2022-05-05T12:02:58.557Z">
 <meta property="article:author" content="clever-ming">
-<meta property="article:tag" content="Volantis">
+<meta property="article:tag" content="配菜师">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png">
   </pjax>
@@ -66,8 +64,8 @@
   contain-intrinsic-size: 10px 500px;
 }
 :root {
-  --color-site-body: #f4f4f4;
-  --color-site-bg: #f4f4f4;
+  --color-site-body: #f5f5f5;
+  --color-site-bg: #f5f5f5;
   --color-site-inner: #fff;
   --color-site-footer: #666;
   --color-card: #fff;
@@ -83,7 +81,7 @@
   --color-h6: #666;
   --color-p: #444;
   --color-list: #666;
-  --color-list-hl: #30ad91;
+  --color-list-hl: #36ac91;
   --color-meta: #888;
   --color-read-bkg: #e0d8c8;
   --color-read-post: #f8f1e2;
@@ -104,7 +102,7 @@
   background: transparent;
 }
 *::-webkit-scrollbar-thumb {
-  background: #3dd9b6;
+  background: #44d7b6;
   cursor: pointer;
   border-radius: 2px;
   -webkit-border-radius: 2px;
@@ -127,7 +125,7 @@ html >::-webkit-scrollbar-track-piece {
   background: transparent;
 }
 html >::-webkit-scrollbar-thumb {
-  background: #3dd9b6;
+  background: #44d7b6;
   cursor: pointer;
   border-radius: 2px;
   -webkit-border-radius: 2px;
@@ -156,7 +154,7 @@ body.modal-active {
   }
 }
 a {
-  color: #2092ec;
+  color: #2196f3;
   cursor: pointer;
   text-decoration: none;
   transition: all 0.28s ease;
@@ -750,7 +748,7 @@ button {
     --color-h6: rgba(255,255,255,0.6);
     --color-p: rgba(217,217,217,0.871);
     --color-list: rgba(217,217,217,0.871);
-    --color-list-hl: #63e0c4;
+    --color-list-hl: #69dfc4;
     --color-meta: rgba(191,191,191,0.871);
     --color-link: rgba(191,191,191,0.871);
   }
@@ -821,7 +819,7 @@ button {
   --color-h6: rgba(255,255,255,0.6);
   --color-p: rgba(217,217,217,0.871);
   --color-list: rgba(217,217,217,0.871);
-  --color-list-hl: #63e0c4;
+  --color-list-hl: #69dfc4;
   --color-meta: rgba(191,191,191,0.871);
   --color-link: rgba(191,191,191,0.871);
 }
@@ -885,14 +883,14 @@ button {
 }
 @font-face {
   font-family: 'MaShanZheng';
-  src: url("/_fonts/canva/MaShanZheng-Regular.woff2");
+  src: url("https://cdn.jsdelivr.net/gh/inkss/common@1/fonts/canva/MaShanZheng-Regular.woff2");
   font-weight: 'normal';
   font-style: 'normal';
   font-display: swap;
 }
 @font-face {
   font-family: 'SentyGoldenBell';
-  src: url("/_fonts/canva/SentyGoldenBell.woff2");
+  src: url("https://cdn.jsdelivr.net/gh/inkss/common@1/fonts/canva/SentyGoldenBell.woff2");
   font-weight: 'normal';
   font-style: 'normal';
   font-display: swap;
@@ -1096,7 +1094,7 @@ button {
   -moz-transition: all 0.28s ease;
   -o-transition: all 0.28s ease;
   -ms-transition: all 0.28s ease;
-  color: #3dd9b6;
+  color: #44d7b6;
 }
 .l_header .switcher >li >a:hover {
   border: none;
@@ -1276,7 +1274,7 @@ ul.m-pc >li>a {
 }
 ul.m-pc >li>a:active,
 ul.m-pc >li>a.active {
-  border-bottom: 2px solid #3dd9b6;
+  border-bottom: 2px solid #44d7b6;
 }
 ul.m-pc li:hover >ul.list-v,
 ul.list-v li:hover >ul.list-v {
@@ -1415,7 +1413,7 @@ ul.list-v >li>a:hover {
 }
 .l_header ul.nav-list-h>li >a:active,
 .l_header ul.nav-list-h>li >a.active {
-  color: #3dd9b6;
+  color: #44d7b6;
 }
 .l_header ul.nav-list-h>li:hover>a {
   color: var(--color-list-hl);
@@ -1726,8 +1724,8 @@ ul.list-v >li>a:hover {
 }
 
   </style>
-  <link rel="stylesheet" href="/css/style.fe2a7aaa.css" media="print" onload="this.media='all';this.onload=null">
-  <noscript><link rel="stylesheet" href="/css/style.fe2a7aaa.css"></noscript>
+  <link rel="stylesheet" href="/css/style.4bf0445b.css" media="print" onload="this.media='all';this.onload=null">
+  <noscript><link rel="stylesheet" href="/css/style.4bf0445b.css"></noscript>
     <script>
       let userColorScheme=localStorage.getItem("color-scheme")
       if(userColorScheme){
@@ -1805,9 +1803,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   volantis.GLOBAL_CONFIG ={
     debug: false,
-    cdn: {"js":{"app":"/js/app.3690b000.js","parallax":"/js/plugins/parallax.8bf0ab10.js","rightMenu":"/js/plugins/rightMenu.1d2dd3e0.js","rightMenus":"/js/plugins/rightMenus.48fa1716.js","sites":"/js/plugins/tags/sites.76bf19b8.js","friends":"/js/plugins/tags/friends.f372da57.js","contributors":"/js/plugins/tags/contributors.aec80453.js","search":"/js/search/hexo.06d40311.js"},"css":{"style":"/css/style.fe2a7aaa.css"}},
+    cdn: {"js":{"app":"/js/app.3690b000.js","parallax":"/js/plugins/parallax.8bf0ab10.js","rightMenu":"/js/plugins/rightMenu.1d2dd3e0.js","rightMenus":"/js/plugins/rightMenus.48fa1716.js","sites":"/js/plugins/tags/sites.76bf19b8.js","friends":"/js/plugins/tags/friends.f372da57.js","contributors":"/js/plugins/tags/contributors.aec80453.js","search":"/js/search/hexo.06d40311.js"},"css":{"style":"/css/style.4bf0445b.css"}},
     default: {"avatar":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/avatar/round/3442075.svg","link":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/cover/76b86c0226ffd.svg","image":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1651759893247),
+    lastupdate: new Date(1651847266310),
     sidebar: {
       for_page: ["blogger","category","tagcloud","webinfo"],
       for_post: ["toc"],
@@ -2513,7 +2511,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     
       <!-- see: /layout/_partial/scripts/_ctrl/coverCtrl.ejs -->
-      <div id="none" class='cover-wrapper post search' style="display: none;">
+      <div id="none" class='cover-wrapper  search' style="display: none;">
         
   <div class='cover-bg lazyload placeholder' data-bg="https://api.mtyqx.cn/api/random.php"></div>
 
@@ -2597,9 +2595,25 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <div id="safearea">
         <div class="body-wrapper">
           
+
 <div id="l_main" class=''>
-  <article itemscope itemtype="http://schema.org/Article" class="article post white-box reveal md shadow floatable blur article-type-post" id="post" itemscope itemprop="blogPost">
-  <link itemprop="mainEntityOfPage" href="https://clever-ming.gitee.io/2022/05/01/03-%E9%85%8D%E7%BD%AEVolantis/">
+  
+    
+      
+  <section class="post-list">
+    
+      
+        
+          
+        
+      
+    
+    
+      
+        
+          <div class='post-wrapper'>
+            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
+  <link itemprop="mainEntityOfPage" href="https://clever-ming.gitee.io/2022/05/06/06-Cvolantis/">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="配菜师的成长之路">
   </span>
@@ -2608,346 +2622,64 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <meta itemprop="description" content="个人博客">
   </span>
   
-
-
+  
   
     <span hidden>
       <meta itemprop="image" content="https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png">
     </span>
   
-  <div class="article-meta" id="top">
-    
-    
-    
-      <h1 class="title" itemprop="name headline">
-        Volantis配置日记--Day3
-      </h1>
-      <div class='new-meta-box'>
-        
-          
-            
-<div class='new-meta-item author' itemprop="author" itemscope itemtype="http://schema.org/Person">
-  <a itemprop="url" class='author' href="/" rel="nofollow">
-    <img itemprop="image" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/head_logo.jpg" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/head_logo.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
-    <p itemprop="name">clever-ming</p>
-  </a>
-</div>
-
-          
-        
-          
-            
-  <div class='new-meta-item category'>
-    <i class="fa-solid fa-folder-open fa-fw" aria-hidden="true"></i>
-    <a class="category-link" href="/categories/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/">博客配置</a>
-    
-      <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-        <a href="/categories/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/" itemprop="url"><span itemprop="name">博客配置</span></a>
-      </span>
-    
-  </div>
-
-
-          
-        
-          
-            
-  <div class="new-meta-item wordcount">
-    <a class='notlink'>
-      <i class="fa-solid fa-keyboard fa-fw" aria-hidden="true"></i>
-      <p>字数：1.8k 字</p>
-    </a>
-  </div>
-  <div class="new-meta-item readtime">
-    <a class='notlink'>
-      <i class="fa-solid fa-hourglass-half fa-fw" aria-hidden="true"></i>
-      <p>时长：7 分钟</p>
-    </a>
-  </div>
-
-
-          
-        
-          
-            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2022-05-01T00:00:00+08:00">
-  <a class='notlink'>
-    <i class="fa-solid fa-calendar-alt fa-fw" aria-hidden="true"></i>
-    <p>发布于：2022年5月1日</p>
-  </a>
-</div>
-
-          
-        
-          
-            
-  <div class="new-meta-item browse leancloud">
-    <a class='notlink'>
-      
-      <div id="lc-pv" data-title="Volantis配置日记--Day3" data-path="/2022/05/01/03-%E9%85%8D%E7%BD%AEVolantis/">
-        <i class="fa-solid fa-eye fa-fw" aria-hidden="true"></i>
-        <span id='number'><i class="fa-solid fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span>
-        次浏览
-      </div>
-    </a>
-  </div>
-
-
-          
-        
-        <!-- Custom Files topMeta begin-->
-        
-        <!-- Custom Files topMeta end-->
-      </div>
-    
-  </div>
-
-
-  <div id="layoutHelper-page-plugins"></div>
-  <div id="post-body" itemprop="articleBody">
-    <p>欢迎来到第三天！按照进度，你应该也发布了文章啦。有了文章，那么展示给别人看，就需要有评论区吧。</p>
-<h3 id="1-评论区配置"><a href="#1-评论区配置" class="headerlink" title="1. 评论区配置"></a>1. 评论区配置</h3><p>官方文档：</p>
-<blockquote>
-<p>目前共支持 14 款评论系统：</p>
-<p>artalk, giscus, beaudar, utterances, twikoo, waline, discuss, disqus, disqusjs, gitalk, vssue, livere, isso, hashover</p>
-</blockquote>
-<p>打开熟悉的<code>_config.volantis.yml</code> 文件，我选择的评论系统是<code>twikoo</code>，所以写入以下代码：</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">comments:</span></span><br><span class="line">  <span class="attr">title:</span> <span class="string">&lt;i</span> <span class="string">class=&#x27;fas</span> <span class="string">fa-comments&#x27;&gt;&lt;/i&gt;</span> <span class="string">评论区</span></span><br><span class="line">  <span class="attr">subtitle:</span></span><br><span class="line">  <span class="attr">service:</span> <span class="string">twikoo</span></span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="1-1-腾讯云配置twikoo"><a href="#1-1-腾讯云配置twikoo" class="headerlink" title="1.1 腾讯云配置twikoo"></a>1.1 腾讯云配置twikoo</h4><p>twikoo官方文档：<a target="_blank" rel="noopener" href="https://twikoo.js.org/">Twikoo 中文文档</a> ，找到手动部署。</p>
-<p><code>twikoo</code>是基于腾讯云的······终究逃不过······打开<a target="_blank" rel="noopener" href="https://cloud.tencent.com/">腾讯云</a>官网注册一下</p>
-<p>根据文档提示进入<a target="_blank" rel="noopener" href="https://console.cloud.tencent.com/tcb">云开发 CloudBase</a>，点击<code>免费开通云开发</code>-<code>同意授权</code></p>
-<p>再次进入<a target="_blank" rel="noopener" href="https://console.cloud.tencent.com/tcb">云开发 CloudBase</a>，</p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220501144933276.png' data-fancybox='default' data-caption='image-20220501144933276'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220501144933276.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220501144933276.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220501144933276"></a><span class='image-caption'>image-20220501144933276</span></div></div>
-
-<p>点击<code>立即创建并使用</code>，选择<code>空模板</code>，点击<code>下一步</code></p>
-<p>官方文档提示</p>
-<blockquote>
-<p>推荐创建上海环境。如选择广州环境，需要在 <code>twikoo.init()</code> 时额外指定环境 <code>region: &quot;ap-guangzhou&quot;</code></p>
-<p>推荐选择计费方式<code>包年包月</code>，套餐版本<code>基础版 1</code>，超出免费额度不会收费</p>
-</blockquote>
-<p>我就先白嫖着先了（<strong>别，后面我后悔了，最后还是花点钱选了基础版1，因为免费版的数据库500次&#x2F;天上传次数太少了，随便测试一下，一天的用量就光了，花点小钱5w次&#x2F;天，简直离谱。如果你还是打算用免费版，也可以试试</strong>）</p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220501145147515.png' data-fancybox='default' data-caption='image-20220501145147515'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220501145147515.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220501145147515.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220501145147515"></a><span class='image-caption'>image-20220501145147515</span></div></div>
-
-<p>点击下一步，开通并购买，实付0元。</p>
-<p>进入控制台，进入<code>登录授权</code>，启动<code>匿名登录</code></p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220502022505479.png' data-fancybox='default' data-caption='image-20220502022505479'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220502022505479.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220502022505479.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220502022505479"></a><span class='image-caption'>image-20220502022505479</span></div></div>
-
-<p>进入<code>安全配置</code>，点击<code>添加域名</code>，域名部署的域名，还有常用的<code>localhost:4000</code></p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220501150402035.png' data-fancybox='default' data-caption='image-20220501150402035'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220501150402035.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220501150402035.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220501150402035"></a><span class='image-caption'>image-20220501150402035</span></div></div>
-
-<p>进入<code>云函数</code>，点击<code>新建云函数</code>，函数名称请填写：<code>twikoo</code>，创建方式请选择：<code>空白函数</code>，运行环境请选择：<code>Nodejs 10.15</code>，函数内存请选择：<code>128MB</code>，点击<code>下一步</code></p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220501150746500.png' data-fancybox='default' data-caption='image-20220501150746500'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220501150746500.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220501150746500.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220501150746500"></a><span class='image-caption'>image-20220501150746500</span></div></div>
-
-<p>清空输入框中的示例代码，复制以下代码、粘贴到<code>函数代码</code>输入框中，点击<code>确定</code></p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">exports</span>.<span class="property">main</span> = <span class="built_in">require</span>(<span class="string">&#x27;twikoo-func&#x27;</span>).<span class="property">main</span></span><br></pre></td></tr></table></figure>
-
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220501151006000.png' data-fancybox='default' data-caption='image-20220501151006000'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220501151006000.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220501151006000.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220501151006000"></a><span class='image-caption'>image-20220501151006000</span></div></div>
-
-<p>创建完成后，点击<code>twikoo</code>进入云函数详情页</p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220501151321876.png' data-fancybox='default' data-caption='image-20220501151321876'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220501151321876.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220501151321876.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220501151321876"></a><span class='image-caption'>image-20220501151321876</span></div></div>
-
-<p>进入<code>函数代码</code>标签，点击<code>文件 - 新建文件</code></p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220501151435238.png' data-fancybox='default' data-caption='image-20220501151435238'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220501151435238.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220501151435238.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220501151435238"></a><span class='image-caption'>image-20220501151435238</span></div></div>
-
-<p>输入 <code>package.json</code>，回车。复制以下代码、粘贴到代码框中，该版本为<code>1.5.5</code></p>
-<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span> <span class="attr">&quot;dependencies&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span> <span class="attr">&quot;twikoo-func&quot;</span><span class="punctuation">:</span> <span class="string">&quot;1.5.5&quot;</span> <span class="punctuation">&#125;</span> <span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
-
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220501151546017.png' data-fancybox='default' data-caption='image-20220501151546017'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220501151546017.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220501151546017.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220501151546017"></a><span class='image-caption'>image-20220501151546017</span></div></div>
-
-<p>（图片是之前装的<code>1.5.8</code>版本，但是有一些问题，所以退回了<code>1.5.5</code>的版本）点击<code>保存并安装依赖</code>即可</p>
-<p>回到<code>资源购买</code>，获取<code>环境ID</code>。</p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220501152255757.png' data-fancybox='default' data-caption='image-20220501152255757'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220501152255757.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220501152255757.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220501152255757"></a><span class='image-caption'>image-20220501152255757</span></div></div>
-
-
-
-<h4 id="1-2-volantis前端配置"><a href="#1-2-volantis前端配置" class="headerlink" title="1.2 volantis前端配置"></a>1.2 volantis前端配置</h4><p>由于我配置的是<code>1.5.5</code>版本，根据提示，建议锁定版本，所以我<code>js</code>中末尾是<code>1.5.5</code></p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">comments:</span> </span><br><span class="line"><span class="string">·······</span> <span class="comment"># 此处为已配置的代码</span></span><br><span class="line">  <span class="comment"># Twikoo</span></span><br><span class="line">  <span class="comment"># https://twikoo.js.org/</span></span><br><span class="line">  <span class="attr">twikoo:</span></span><br><span class="line">    <span class="attr">js:</span> <span class="string">https://npm.elemecdn.com/twikoo@1.5.5</span> <span class="comment"># 建议锁定版本</span></span><br><span class="line">    <span class="attr">envId:</span> <span class="string">xxxxxxxxxxxxxxx</span> <span class="comment"># 腾讯云环境id</span></span><br><span class="line">    <span class="attr">placeholder:</span> <span class="comment">#全局评论占位，也可以在管理面板中的配置管理处设置（此处优先级更高）</span></span><br></pre></td></tr></table></figure>
-
-<p>注意！不要填写path参数，不然会全部文章共用一个评论区。</p>
-<p>重新三剑客 <code>hexo clean</code>，<code>hexo g</code>，<code>hexo s</code>之后，你会发现评论区就已经开启了！</p>
-<p>如果需要管理评论区，请参考官方文档：<a target="_blank" rel="noopener" href="https://twikoo.js.org/quick-start.html#%E5%BC%80%E5%90%AF%E7%AE%A1%E7%90%86%E9%9D%A2%E6%9D%BF">快速上手-开启管理面板 | Twikoo 中文文档</a></p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220501153341074.png' data-fancybox='default' data-caption='image-20220501153341074'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220501153341074.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220501153341074.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220501153341074"></a><span class='image-caption'>image-20220501153341074</span></div></div>
-
-<p>可以根据需要配置评论区。</p>
-<p>他会根据QQ邮箱，识别QQ号头像自动匹配。发一条评论庆祝一下。</p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220501160941389.png' data-fancybox='default' data-caption='image-20220501160941389'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220501160941389.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220501160941389.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220501160941389"></a><span class='image-caption'>image-20220501160941389</span></div></div>
-
-<p>然而！发现了一个问题，那就是所有文章公用一个评论区。</p>
-<p>经过和群友深入探讨。</p>
-<p>文件<code>node_modules</code>–<code>hexo-theme-volantis</code>–<code>_config.yml</code>内查看你的版本，如果你和我的是一样的为<code>5.0.0-rc.110</code>版本，那么须在一个文件内改动。</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">theme_version:</span> <span class="string">&#x27;5.0.0-rc.110&#x27;</span> <span class="comment"># This is theme&#x27;s version.</span></span><br></pre></td></tr></table></figure>
-
-<p>找到<code>node_modules</code>–<code>hexo-theme-volantis</code>–<code>layout</code>–<code>_plugins</code>–<code>comments</code>–<code>twikoo</code>–<code>script.ejs</code>里面对应的代码，进行改动</p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/147E8Y7M29MC%7BF%7D~%5DA@6TC1.png' data-fancybox='default' data-caption='img'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/147E8Y7M29MC%7BF%7D~%5DA@6TC1.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/147E8Y7M29MC%7BF%7D~%5DA@6TC1.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="img"></a><span class='image-caption'>img</span></div></div>
-
-<p>左边改成右边。（也就是去掉双引号）然后你就会发现，你的评论区终于不会共用了！</p>
-<p>就此，评论区配置完毕！</p>
-<h3 id="2-站内搜索配置（小坑）"><a href="#2-站内搜索配置（小坑）" class="headerlink" title="2.  站内搜索配置（小坑）"></a>2.  站内搜索配置（小坑）</h3><p>不知道有没有发现，网站的搜索栏是坏的，因为没有配置。</p>
-<p>别急！别急！别急！</p>
-<p>文档告诉我们，需要打开熟悉的<code>_config.volantis.yml</code> 文件，写下如下代码：</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">service:</span> <span class="string">hexo</span>  <span class="comment"># hexo</span></span><br><span class="line">  <span class="attr">js:</span> <span class="string">https://cdn.jsdelivr.net/xxxxxxxx/js/search/hexo.js</span></span><br></pre></td></tr></table></figure>
-
-<p>默认配置为 Hexo 搜索，但是需要安装插件才能使用：</p>
-<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i <span class="literal">-S</span> hexo<span class="literal">-generator-json-content</span></span><br></pre></td></tr></table></figure>
-
-<p>但是·····我<strong>配置失败</strong>了。回头找找原因。</p>
-<p>作为网页初学者而言完全没有意识到的问题，那就是：<code>https://cdn.jsdelivr.net/xxxxxxxx/js/search/hexo.js</code>  这个网址中的xxxxxxx这么不对劲的地方我觉得很合理。哈哈哈哈哈哈哈！</p>
-<p>然后发现完全不用配置，直接可以识别，如果写入如上的错误代码将会把搜索栏失效，所以只需要安装插件应该就行了。</p>
-<p>如果你想写js地址，把本地的js地址写上去即可。</p>
-<p>配置站内搜索完毕。</p>
-<h3 id="3-侧边栏加一个栏目（网站信息）"><a href="#3-侧边栏加一个栏目（网站信息）" class="headerlink" title="3. 侧边栏加一个栏目（网站信息）"></a>3. 侧边栏加一个栏目（网站信息）</h3><h4 id="3-1-配置网站信息栏"><a href="#3-1-配置网站信息栏" class="headerlink" title="3.1 配置网站信息栏"></a>3.1 配置网站信息栏</h4><p>文章多了之后会感觉右边空荡荡的，希望加一写小部件丰富一下。web info很不错。</p>
-<p>打开熟悉的<code>_config.volantis.yml</code> 文件:</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">sidebar:</span></span><br><span class="line">  <span class="string">......</span></span><br><span class="line">  <span class="attr">widget_library:</span></span><br><span class="line">    <span class="attr">webinfo:</span></span><br><span class="line">      <span class="attr">class:</span> <span class="string">webinfo</span></span><br><span class="line">      <span class="attr">display:</span> [<span class="string">desktop</span>]</span><br><span class="line">      <span class="attr">header:</span></span><br><span class="line">        <span class="attr">icon:</span> <span class="string">fa-solid</span> <span class="string">fa-award</span></span><br><span class="line">        <span class="attr">title:</span> <span class="string">站点信息</span></span><br><span class="line">      <span class="attr">type:</span></span><br><span class="line">        <span class="attr">article:</span></span><br><span class="line">          <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">          <span class="attr">text:</span> <span class="string">&#x27;文章数目：&#x27;</span></span><br><span class="line">          <span class="attr">unit:</span> <span class="string">&#x27;篇&#x27;</span></span><br><span class="line">        <span class="attr">runtime:</span></span><br><span class="line">          <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">          <span class="attr">data:</span> <span class="string">&#x27;2022/04/27&#x27;</span>    <span class="comment"># 填写建站日期</span></span><br><span class="line">          <span class="attr">text:</span> <span class="string">&#x27;已运行时间：&#x27;</span></span><br><span class="line">          <span class="attr">unit:</span> <span class="string">&#x27;天&#x27;</span></span><br><span class="line">        <span class="attr">wordcount:</span></span><br><span class="line">          <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">          <span class="attr">text:</span> <span class="string">&#x27;本站总字数：&#x27;</span>   <span class="comment"># 需要启用 wordcount</span></span><br><span class="line">          <span class="attr">unit:</span> <span class="string">&#x27;字&#x27;</span></span><br><span class="line">        <span class="attr">visitcounter:</span></span><br><span class="line">          <span class="attr">siteuv:</span></span><br><span class="line">            <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">            <span class="attr">text:</span> <span class="string">&#x27;本站访客数：&#x27;</span></span><br><span class="line">            <span class="attr">unit:</span> <span class="string">&#x27;人&#x27;</span></span><br><span class="line">          <span class="attr">sitepv:</span></span><br><span class="line">            <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">            <span class="attr">text:</span> <span class="string">&#x27;本站总访问量：&#x27;</span></span><br><span class="line">            <span class="attr">unit:</span> <span class="string">&#x27;次&#x27;</span></span><br><span class="line">        <span class="attr">lastupd:</span></span><br><span class="line">          <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">          <span class="attr">friendlyShow:</span> <span class="literal">true</span>    <span class="comment"># 更友好的时间显示</span></span><br><span class="line">          <span class="attr">text:</span> <span class="string">&#x27;最后活动时间：&#x27;</span></span><br><span class="line">          <span class="attr">unit:</span> <span class="string">&#x27;日&#x27;</span></span><br></pre></td></tr></table></figure>
-
-<p>其中的wordcount需要安装一下。</p>
-<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i hexo<span class="literal">-wordcount</span></span><br></pre></td></tr></table></figure>
-
-<p>然后打开熟悉的<code>_config.volantis.yml</code> 文件（在之前夜间模式的地方加入以下代码）：</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">plugins:</span></span><br><span class="line">  <span class="string">......</span></span><br><span class="line">  <span class="attr">wordcount:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-
-<p>你也可以在文章开头末尾添加：</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">article:</span></span><br><span class="line">  <span class="string">......</span></span><br><span class="line">  <span class="comment"># 文章详情页面的文章卡片本体布局方案</span></span><br><span class="line">  <span class="attr">body:</span></span><br><span class="line">    <span class="comment"># 文章顶部信息</span></span><br><span class="line">    <span class="comment"># 从 meta_library 中取</span></span><br><span class="line">    <span class="attr">top_meta:</span> [<span class="string">...</span>, <span class="string">wordcount</span>, <span class="string">...</span>]</span><br><span class="line">    <span class="string">...</span></span><br><span class="line">    <span class="comment"># 文章底部信息</span></span><br><span class="line">    <span class="comment"># 从 meta_library 中取</span></span><br><span class="line">    <span class="attr">bottom_meta:</span> [<span class="string">...</span>, <span class="string">wordcount</span>, <span class="string">...</span>]</span><br></pre></td></tr></table></figure>
-
-<p>接下来是访问数数据统计</p>
-<h4 id="3-2-配置访问统计数"><a href="#3-2-配置访问统计数" class="headerlink" title="3.2 配置访问统计数"></a>3.2 配置访问统计数</h4><p>我使用的是<a target="_blank" rel="noopener" href="https://www.leancloud.cn/">LeanCloud</a>，原因是不蒜子配置失败。注册一个账号，并支付宝实名认证一下。</p>
-<p>创建应用</p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220502014854921.png' data-fancybox='default' data-caption='image-20220502014854921'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220502014854921.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220502014854921.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220502014854921"></a><span class='image-caption'>image-20220502014854921</span></div></div>
-
-<p>创建一个Class，我取名为counter。</p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/QQ%E6%88%AA%E5%9B%BE20220502015927.png' data-fancybox='default' data-caption='QQ截图20220502015927'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/QQ%E6%88%AA%E5%9B%BE20220502015927.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/QQ%E6%88%AA%E5%9B%BE20220502015927.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="QQ截图20220502015927"></a><span class='image-caption'>QQ截图20220502015927</span></div></div>
-
-<p>然后找到<code>AppID</code>和<code>AppKey</code>，填入<code>_config.volantis.yml</code> 文件中对应的参数</p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220502020455225.png' data-fancybox='default' data-caption='image-20220502020455225'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220502020455225.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220502020455225.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220502020455225"></a><span class='image-caption'>image-20220502020455225</span></div></div>
-
-<p>在<code>_config.volantis.yml</code> 文件中配置<code>app_id</code>，<code>app_key</code>即可。</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">analytics:</span></span><br><span class="line">  <span class="attr">busuanzi:</span> </span><br><span class="line">  <span class="attr">leancloud:</span> <span class="comment"># 请使用自己的 id &amp; key 以防止数据丢失</span></span><br><span class="line">    <span class="attr">app_id:</span> <span class="comment"># 填入此处</span></span><br><span class="line">    <span class="attr">app_key:</span> <span class="comment"># 填入此处</span></span><br><span class="line">    <span class="attr">custom_api_server:</span> <span class="comment"># 国际版一般不需要写，除非自定义了 API Server</span></span><br></pre></td></tr></table></figure>
-
-<p>然后<code>三剑客</code>一下，所有的计数都配置好啦！</p>
-<p><strong>Day 3 结束！欣赏一下自己的博客吧！</strong></p>
-
-
-  </div>
-  
   
     
-    <div class='footer'>
+    <h2 class="article-title"  itemprop="name headline">
+      <a href="/2022/05/06/06-Cvolantis/"  itemprop="url">
+        Volantis个性化--Day1
+      </a>
+    </h2>
+  
+  <div class='md article-desc' itemprop="articleBody">
+    
+      <p>内容包括：。</p>
+    
+  </div>
+  
+    <div class='meta-v3' line_style='solid'>
+      <div>
+        
+        <time itemprop="dateCreated datePublished" datetime="2022-05-06T00:00:00+08:00">2022-05-06</time>
+        
+          <span class="dot"></span>
+          <a class="category-link" href="/categories/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE-%E8%BF%9B%E9%98%B6%E7%AF%87/">博客配置-进阶篇</a>
+          
+            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+              <a href="/categories/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE-%E8%BF%9B%E9%98%B6%E7%AF%87/" itemprop="url"><span itemprop="name">博客配置-进阶篇</span></a>
+            </span>
+          
+        
+      </div>
       
-      
-      
-        <div class='copyright'>
-          <blockquote>
-            
-              
-                <p>博客内容遵循 署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议</p>
-
-              
-            
-          </blockquote>
+        <div>
+          <a class='readmore' href='/2022/05/06/06-Cvolantis/' itemprop="url">
+            阅读全文
+          </a>
         </div>
       
-      
     </div>
   
-  
-    
 
-
-  <div class='article-meta' id="bottom">
-    <div class='new-meta-box'>
-      
-        
-          <div class="new-meta-item date" itemprop="dateModified" datetime="2022-05-05T20:02:58+08:00">
-  <a class='notlink'>
-    <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
-    <p>更新于：2022年5月5日</p>
-  </a>
 </div>
 
+          </div>
         
       
-        
-          
-  
-  <div class="new-meta-item meta-tags"><a class="tag" href="/tags/Volantis/" rel="nofollow"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i><p>Volantis</p></a></div>
-  <span hidden itemprop="keywords">Volantis</span>
-
-
-        
-      
-        
-          
-  <div class="new-meta-item wordcount">
-    <a class='notlink'>
-      <i class="fa-solid fa-keyboard fa-fw" aria-hidden="true"></i>
-      <p>字数：1.8k 字</p>
-    </a>
-  </div>
-  <div class="new-meta-item readtime">
-    <a class='notlink'>
-      <i class="fa-solid fa-hourglass-half fa-fw" aria-hidden="true"></i>
-      <p>时长：7 分钟</p>
-    </a>
-  </div>
-
-
-        
-      
-    </div>
-    <!-- Custom Files bottomMeta begin -->
     
-    <!-- Custom Files bottomMeta end -->
-  </div>
-
-
+  </section>
   
-  
-
-  
-    <div class="prev-next">
-      
-        <a class='prev' href='/2022/05/04/04-%E9%85%8D%E7%BD%AEVolantis/'>
-          <p class='title'><i class="fa-solid fa-chevron-left" aria-hidden="true"></i>Volantis配置日记--Day4</p>
-          <p class='content'>如果能做到今天，那么你的博客基本配置基本上就算完成了。之后设置的东西都比较个性化一些。按需修改即可。
-1.音乐播放器配置打开熟悉的_config.volantis.yml 文件，写入以下代码：
-...</p>
-        </a>
-      
-      
-        <a class='next' href='/2022/04/30/02-%E9%85%8D%E7%BD%AEVolantis/'>
-          <p class='title'>Volantis配置日记--Day2<i class="fa-solid fa-chevron-right" aria-hidden="true"></i></p>
-          <p class='content'>文章发布了吗？如果发布了，那么肯定会遇上一个问题，那就是图怎么办呢？因此我们需要一个图床，把图片放进去，然后他就会生成一个链接，调用链接即可显示图片啦！这样的模式能让图片加载速度比较快。
-1. ...</p>
-        </a>
-      
-    </div>
-  
-  <!-- Custom Files postEnd begin-->
-  
-  <!-- Custom Files postEnd end-->
-</article>
-
-
-  
-
-  
-  <article class="post white-box shadow floatable blur" id="comments">
-    <span hidden>
-      <meta itemprop="discussionUrl" content="/2022/05/01/03-%E9%85%8D%E7%BD%AEVolantis/index.html#comments">
-    </span>
-    <p ct><i class='fas fa-comments'></i> 评论区</p>
     
-    
-    <div id="layoutHelper-comments"></div>
-
-  </article>
   
 
 
-
-
-
+    
+  
 </div>
 <aside id='l_side' itemscope itemtype="http://schema.org/WPSideBar">
   
@@ -2955,34 +2687,200 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
     
 
+<section class="widget blogger shadow floatable blur desktop mobile pjax">
+  <div class='content'>
+    
+      
+        <a class='avatar flat-box circle' href='/about/'>
+          <img no-lazy src='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/head_logo.jpg'/>
+        </a>
+      
+    
+    
+      <div class='text'>
+        
+          <h2>In a Daze?NO! Become Sober!</h2>
+        
+        
+        
+      </div>
+    
+    
+      <div class="social-wrapper">
+        
+          
+            <a href="/MyLove/test.html"
+              class="social fas fa-heart flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+              
+            </a>
+          
+        
+          
+            <a href="https://space.bilibili.com/87679554"
+              class="social fab fa-bilibili flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+              
+            </a>
+          
+        
+          
+            <a href="https://gitee.com/clever-ming"
+              class="social fas fa-g flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+              
+            </a>
+          
+        
+          
+            <a href="https://github.com/Clever-Ming"
+              class="social fab fa-github flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+              
+            </a>
+          
+        
+      </div>
+    
+  </div>
+</section>
 
+  
 
-  <section class="widget toc-wrapper shadow floatable blur desktop mobile pjax" id="toc-div" >
+  
+    
+    
+  
+
+  <section class="widget category shadow floatable blur desktop pjax">
     
   <header>
     
-      <i class="fa-solid fa-list fa-fw" aria-hidden="true"></i><span class='name'>本文目录</span>
+      <a href='/blog/categories/'><i class="fa-solid fa-folder-open fa-fw" aria-hidden="true"></i><span class='name'>文章分类</span></a>
     
   </header>
 
 
     <div class='content'>
-        <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E8%AF%84%E8%AE%BA%E5%8C%BA%E9%85%8D%E7%BD%AE"><span class="toc-text">1. 评论区配置</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-%E8%85%BE%E8%AE%AF%E4%BA%91%E9%85%8D%E7%BD%AEtwikoo"><span class="toc-text">1.1 腾讯云配置twikoo</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-volantis%E5%89%8D%E7%AB%AF%E9%85%8D%E7%BD%AE"><span class="toc-text">1.2 volantis前端配置</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E7%AB%99%E5%86%85%E6%90%9C%E7%B4%A2%E9%85%8D%E7%BD%AE%EF%BC%88%E5%B0%8F%E5%9D%91%EF%BC%89"><span class="toc-text">2.  站内搜索配置（小坑）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E4%BE%A7%E8%BE%B9%E6%A0%8F%E5%8A%A0%E4%B8%80%E4%B8%AA%E6%A0%8F%E7%9B%AE%EF%BC%88%E7%BD%91%E7%AB%99%E4%BF%A1%E6%81%AF%EF%BC%89"><span class="toc-text">3. 侧边栏加一个栏目（网站信息）</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#3-1-%E9%85%8D%E7%BD%AE%E7%BD%91%E7%AB%99%E4%BF%A1%E6%81%AF%E6%A0%8F"><span class="toc-text">3.1 配置网站信息栏</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-2-%E9%85%8D%E7%BD%AE%E8%AE%BF%E9%97%AE%E7%BB%9F%E8%AE%A1%E6%95%B0"><span class="toc-text">3.2 配置访问统计数</span></a></li></ol></li></ol>
+      <ul class="entry navigation">
+        
+          <li><a class="flat-box"
+            title="/categories/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE-%E5%9F%BA%E7%A1%80%E7%AF%87/" href="/categories/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE-%E5%9F%BA%E7%A1%80%E7%AF%87/"
+            active-action="action-categoriesE58D9AE5AEA2E9858DE7BDAE-E59FBAE7A180E7AF87"
+            ><div class='name'>博客配置-基础篇</div><div class='badge'>(5)</div></a></li>
+        
+          <li><a class="flat-box"
+            title="/categories/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE-%E8%BF%9B%E9%98%B6%E7%AF%87/" href="/categories/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE-%E8%BF%9B%E9%98%B6%E7%AF%87/"
+            active-action="action-categoriesE58D9AE5AEA2E9858DE7BDAE-E8BF9BE998B6E7AF87"
+            ><div class='name'>博客配置-进阶篇</div><div class='badge'>(1)</div></a></li>
+        
+          <li><a class="flat-box"
+            title="/categories/%E6%97%A5%E5%B8%B8/" href="/categories/%E6%97%A5%E5%B8%B8/"
+            active-action="action-categoriesE697A5E5B8B8"
+            ><div class='name'>日常</div><div class='badge'>(1)</div></a></li>
+        
+      </ul>
     </div>
   </section>
+
+
+  
+
+  
+    
+    
+  
+
+  <section class="widget tagcloud shadow floatable blur desktop mobile pjax">
+    
+  <header>
+    
+      <a href='/blog/tags/'><i class="fa-solid fa-tags fa-fw" aria-hidden="true"></i><span class='name'>热门标签</span></a>
+    
+  </header>
+
+
+    <div class='content'>
+      <a href="/tags/Volantis/" style="font-size: 24px; color: #555">Volantis</a> <a href="/tags/%E6%9D%82%E8%B0%88/" style="font-size: 14px; color: #999">杂谈</a> <a href="/tags/%E7%A0%B4%E9%98%B2%E7%9E%AC%E9%97%B4/" style="font-size: 19px; color: #777">破防瞬间</a>
+    </div>
+  </section>
+
+
+  
+
+  
+    
+    
+
+<section class="widget shadow floatable blur desktop pjax">
+  
+  <header>
+    
+      <i class="fa-solid fa-award fa-fw" aria-hidden="true"></i><span class='name'>站点信息</span>
+    
+  </header>
+
+
+  <div class='content'>
+    <div class="webinfo">
+      
+        <div class="webinfo-item">
+          <div>文章数目：</div>
+          <div>7 篇</div>
+        </div>
+      
+
+      
+        <div class="webinfo-item">
+          <div>已运行时间：</div>
+          <div id="webinfo-runtime-count"></div>
+        </div>
+      
+
+
+      
+        <div class="webinfo-item">
+          <div>本站总字数：</div>
+          <div>11.3k 字</div>
+        </div>
+      
+
+      
+        <div class="webinfo-item">
+          <div>本站访客数：</div>
+          
+          <div><span id="lc-uv"><span id='number'><i class="fa-solid fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span></span> 人</div>
+          
+        </div>
+      
+
+      
+        <div class="webinfo-item">
+          <div>本站总访问量：</div>
+          
+          <div><span id="lc-sv"><span id='number'><i class="fa-solid fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span></span> 次</div>
+          
+        </div>
+      
+
+      
+        <div class="webinfo-item">
+          <div>最后活动时间：</div>
+          <div id="last-update-show">2022-05-06 日</div> 
+        </div>
+      
+    </div>
+  </div>
+</section>
 
   
 
 
 <!-- 没有 pjax 占位会报错 万恶的 pjax -->
-
-  <div class="pjax">
-    <!-- pjax占位 -->
-  </div>
-
-  <div class="pjax">
-    <!-- pjax占位 -->
-  </div>
 
   <div class="pjax">
     <!-- pjax占位 -->
@@ -3011,14 +2909,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </aside>
 
 
-
           <!--此文件用来存放一些不方便取值的变量-->
 <!--思路大概是将值藏到重加载的区域内-->
 
 <pjax>
 <script>
   window.pdata={}
-  pdata.ispage=true;
+  pdata.ispage=false;
   pdata.commentPath="";
   pdata.commentPlaceholder="";
   pdata.commentConfig={};
@@ -3084,17 +2981,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
           
             
-              <a href="/MyLove/"
-                class="social fas fa-heart flat-btn"
-                target="_blank"
-                rel="external nofollow noopener noreferrer" itemprop="url">
-                
-              </a>
-            
-          
-            
-              <a href="https://space.bilibili.com/87679554"
-                class="social fab fa-bilibili flat-btn"
+              <a href="https://github.com/Clever-Ming"
+                class="social fab fa-github flat-btn"
                 target="_blank"
                 rel="external nofollow noopener noreferrer" itemprop="url">
                 
@@ -3124,7 +3012,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
       
         <div class='copyright'>
-        <p><a href="/">Copyright © since 2017 XXX</a></p>
+        <p><a href="/">Copyright © since 2022 Ms</a></p>
 
         </div>
       
@@ -4377,7 +4265,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"配菜师的成长之路","url":"https://clever-ming.gitee.io/","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"clever-ming","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://clever-ming.gitee.io/","sameAs":["https://github.com/volantis-x"],"description":"个人博客"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://clever-ming.gitee.io/","name":"配菜师的成长之路"}},{"@type":"ListItem","position":2,"item":{"@id":"https://clever-ming.gitee.io/categories/博客配置/","name":"博客配置"}},{"@type":"ListItem","position":3,"item":{"@id":"https://clever-ming.gitee.io/2022/05/01/03-配置Volantis/","name":"Volantis配置日记--Day3"}}]},{"@context":"http://schema.org","@type":"BlogPosting","headline":"Volantis配置日记--Day3","description":"内容包括：评论区配置、搜索栏配置、网站基本访问信息统计配置。","datePublished":"2022-04-30T16:00:00.000Z","dateModified":"2022-05-05T12:02:58.557Z","inLanguage":["zh-CN","en","zh-HK","zh-TW","default"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://clever-ming.gitee.io/2022/05/01/03-%E9%85%8D%E7%BD%AEVolantis/"},"author":{"@type":"Person","name":"clever-ming","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://clever-ming.gitee.io/"},"publisher":{"@type":"Organization","name":"配菜师的成长之路","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://clever-ming.gitee.io/2022/05/01/03-%E9%85%8D%E7%BD%AEVolantis/","wordCount":0,"articleSection":"博客配置","keywords":"Volantis","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"配菜师的成长之路","url":"https://clever-ming.gitee.io/","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"clever-ming","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://clever-ming.gitee.io/","sameAs":["https://github.com/volantis-x"],"description":"个人博客"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://clever-ming.gitee.io/","name":"配菜师的成长之路"}},{"@type":"ListItem","position":2,"item":{"@id":"https://clever-ming.gitee.io/categories/博客配置-进阶篇/","name":"博客配置-进阶篇"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"配菜师的成长之路","url":"https://clever-ming.gitee.io/","keywords":"配菜师","description":"个人博客","author":{"@type":"Person","name":"clever-ming","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://clever-ming.gitee.io/","description":"个人博客"},"publisher":{"@type":"Organization","name":"配菜师的成长之路","url":"https://clever-ming.gitee.io/","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://clever-ming.gitee.io?s={search_term_string}"},"query-input":"required name=search_term_string"}}]</script>
 
 
 

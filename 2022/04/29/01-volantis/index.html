@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
-  <link rel="canonical" href="https://clever-ming.gitee.io/2022/04/30/02-配置volantis/"/>
+  <link rel="canonical" href="https://clever-ming.gitee.io/2022/04/29/01-volantis/"/>
   <!-- 渲染优化 -->
     <meta http-equiv='x-dns-prefetch-control' content='on' />
       <link rel='dns-prefetch' href='https://npm.elemecdn.com'>
@@ -26,26 +26,26 @@
   
   <!-- Custom Files headBegin end-->
     <link rel="shortcut icon" type='image/x-icon' href="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/logo.ico">
-  <link rel="preload" href="/css/style.fe2a7aaa.css" as="style">
-  <link rel="preload" href="/_fonts/canva/MaShanZheng-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="/css/style.4bf0445b.css" as="style">
+  <link rel="preload" href="https://cdn.jsdelivr.net/gh/inkss/common@1/fonts/canva/MaShanZheng-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 <link rel="preload" href="https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/fonts/UbuntuMono/UbuntuMono-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 
   <!-- feed -->
   <!-- 页面元数据 -->
   <pjax>
-  <title>Volantis配置日记--Day2 - 配菜师的成长之路</title>
+  <title>Volantis配置日记--Day1 - 配菜师的成长之路</title>
   <meta name="keywords" content="Volantis,配菜师">
-  <meta desc name="description" content="内容包括：Typora+PicGo+阿里云图床配置、侧边栏配置、修改logo、修改右键菜单。 - clever-ming - 配菜师的成长之路">
+  <meta desc name="description" content="内容包括：初步的安装主题、站点配置、主题配置、文章配置。 - clever-ming - 配菜师的成长之路">
   
 <meta property="og:type" content="article">
-<meta property="og:title" content="Volantis配置日记--Day2">
-<meta property="og:url" content="https://clever-ming.gitee.io/2022/04/30/02-%E9%85%8D%E7%BD%AEVolantis/index.html">
+<meta property="og:title" content="Volantis配置日记--Day1">
+<meta property="og:url" content="https://clever-ming.gitee.io/2022/04/29/01-volantis/index.html">
 <meta property="og:site_name" content="配菜师的成长之路">
-<meta property="og:description" content="内容包括：Typora+PicGo+阿里云图床配置、侧边栏配置、修改logo、修改右键菜单。">
+<meta property="og:description" content="内容包括：初步的安装主题、站点配置、主题配置、文章配置。">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png">
-<meta property="article:published_time" content="2022-04-29T16:00:00.000Z">
-<meta property="article:modified_time" content="2022-05-05T11:59:32.242Z">
+<meta property="article:published_time" content="2022-04-28T16:00:00.000Z">
+<meta property="article:modified_time" content="2022-05-06T07:40:55.192Z">
 <meta property="article:author" content="clever-ming">
 <meta property="article:tag" content="Volantis">
 <meta name="twitter:card" content="summary">
@@ -66,8 +66,8 @@
   contain-intrinsic-size: 10px 500px;
 }
 :root {
-  --color-site-body: #f4f4f4;
-  --color-site-bg: #f4f4f4;
+  --color-site-body: #f5f5f5;
+  --color-site-bg: #f5f5f5;
   --color-site-inner: #fff;
   --color-site-footer: #666;
   --color-card: #fff;
@@ -83,7 +83,7 @@
   --color-h6: #666;
   --color-p: #444;
   --color-list: #666;
-  --color-list-hl: #30ad91;
+  --color-list-hl: #36ac91;
   --color-meta: #888;
   --color-read-bkg: #e0d8c8;
   --color-read-post: #f8f1e2;
@@ -104,7 +104,7 @@
   background: transparent;
 }
 *::-webkit-scrollbar-thumb {
-  background: #3dd9b6;
+  background: #44d7b6;
   cursor: pointer;
   border-radius: 2px;
   -webkit-border-radius: 2px;
@@ -127,7 +127,7 @@ html >::-webkit-scrollbar-track-piece {
   background: transparent;
 }
 html >::-webkit-scrollbar-thumb {
-  background: #3dd9b6;
+  background: #44d7b6;
   cursor: pointer;
   border-radius: 2px;
   -webkit-border-radius: 2px;
@@ -156,7 +156,7 @@ body.modal-active {
   }
 }
 a {
-  color: #2092ec;
+  color: #2196f3;
   cursor: pointer;
   text-decoration: none;
   transition: all 0.28s ease;
@@ -750,7 +750,7 @@ button {
     --color-h6: rgba(255,255,255,0.6);
     --color-p: rgba(217,217,217,0.871);
     --color-list: rgba(217,217,217,0.871);
-    --color-list-hl: #63e0c4;
+    --color-list-hl: #69dfc4;
     --color-meta: rgba(191,191,191,0.871);
     --color-link: rgba(191,191,191,0.871);
   }
@@ -821,7 +821,7 @@ button {
   --color-h6: rgba(255,255,255,0.6);
   --color-p: rgba(217,217,217,0.871);
   --color-list: rgba(217,217,217,0.871);
-  --color-list-hl: #63e0c4;
+  --color-list-hl: #69dfc4;
   --color-meta: rgba(191,191,191,0.871);
   --color-link: rgba(191,191,191,0.871);
 }
@@ -885,14 +885,14 @@ button {
 }
 @font-face {
   font-family: 'MaShanZheng';
-  src: url("/_fonts/canva/MaShanZheng-Regular.woff2");
+  src: url("https://cdn.jsdelivr.net/gh/inkss/common@1/fonts/canva/MaShanZheng-Regular.woff2");
   font-weight: 'normal';
   font-style: 'normal';
   font-display: swap;
 }
 @font-face {
   font-family: 'SentyGoldenBell';
-  src: url("/_fonts/canva/SentyGoldenBell.woff2");
+  src: url("https://cdn.jsdelivr.net/gh/inkss/common@1/fonts/canva/SentyGoldenBell.woff2");
   font-weight: 'normal';
   font-style: 'normal';
   font-display: swap;
@@ -1096,7 +1096,7 @@ button {
   -moz-transition: all 0.28s ease;
   -o-transition: all 0.28s ease;
   -ms-transition: all 0.28s ease;
-  color: #3dd9b6;
+  color: #44d7b6;
 }
 .l_header .switcher >li >a:hover {
   border: none;
@@ -1276,7 +1276,7 @@ ul.m-pc >li>a {
 }
 ul.m-pc >li>a:active,
 ul.m-pc >li>a.active {
-  border-bottom: 2px solid #3dd9b6;
+  border-bottom: 2px solid #44d7b6;
 }
 ul.m-pc li:hover >ul.list-v,
 ul.list-v li:hover >ul.list-v {
@@ -1415,7 +1415,7 @@ ul.list-v >li>a:hover {
 }
 .l_header ul.nav-list-h>li >a:active,
 .l_header ul.nav-list-h>li >a.active {
-  color: #3dd9b6;
+  color: #44d7b6;
 }
 .l_header ul.nav-list-h>li:hover>a {
   color: var(--color-list-hl);
@@ -1726,8 +1726,8 @@ ul.list-v >li>a:hover {
 }
 
   </style>
-  <link rel="stylesheet" href="/css/style.fe2a7aaa.css" media="print" onload="this.media='all';this.onload=null">
-  <noscript><link rel="stylesheet" href="/css/style.fe2a7aaa.css"></noscript>
+  <link rel="stylesheet" href="/css/style.4bf0445b.css" media="print" onload="this.media='all';this.onload=null">
+  <noscript><link rel="stylesheet" href="/css/style.4bf0445b.css"></noscript>
     <script>
       let userColorScheme=localStorage.getItem("color-scheme")
       if(userColorScheme){
@@ -1805,9 +1805,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   volantis.GLOBAL_CONFIG ={
     debug: false,
-    cdn: {"js":{"app":"/js/app.3690b000.js","parallax":"/js/plugins/parallax.8bf0ab10.js","rightMenu":"/js/plugins/rightMenu.1d2dd3e0.js","rightMenus":"/js/plugins/rightMenus.48fa1716.js","sites":"/js/plugins/tags/sites.76bf19b8.js","friends":"/js/plugins/tags/friends.f372da57.js","contributors":"/js/plugins/tags/contributors.aec80453.js","search":"/js/search/hexo.06d40311.js"},"css":{"style":"/css/style.fe2a7aaa.css"}},
+    cdn: {"js":{"app":"/js/app.3690b000.js","parallax":"/js/plugins/parallax.8bf0ab10.js","rightMenu":"/js/plugins/rightMenu.1d2dd3e0.js","rightMenus":"/js/plugins/rightMenus.48fa1716.js","sites":"/js/plugins/tags/sites.76bf19b8.js","friends":"/js/plugins/tags/friends.f372da57.js","contributors":"/js/plugins/tags/contributors.aec80453.js","search":"/js/search/hexo.06d40311.js"},"css":{"style":"/css/style.4bf0445b.css"}},
     default: {"avatar":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/avatar/round/3442075.svg","link":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/cover/76b86c0226ffd.svg","image":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1651759893247),
+    lastupdate: new Date(1651847266310),
     sidebar: {
       for_page: ["blogger","category","tagcloud","webinfo"],
       for_post: ["toc"],
@@ -2599,7 +2599,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           
 <div id="l_main" class=''>
   <article itemscope itemtype="http://schema.org/Article" class="article post white-box reveal md shadow floatable blur article-type-post" id="post" itemscope itemprop="blogPost">
-  <link itemprop="mainEntityOfPage" href="https://clever-ming.gitee.io/2022/04/30/02-%E9%85%8D%E7%BD%AEVolantis/">
+  <link itemprop="mainEntityOfPage" href="https://clever-ming.gitee.io/2022/04/29/01-volantis/">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="配菜师的成长之路">
   </span>
@@ -2620,7 +2620,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
     
       <h1 class="title" itemprop="name headline">
-        Volantis配置日记--Day2
+        Volantis配置日记--Day1
       </h1>
       <div class='new-meta-box'>
         
@@ -2639,10 +2639,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
   <div class='new-meta-item category'>
     <i class="fa-solid fa-folder-open fa-fw" aria-hidden="true"></i>
-    <a class="category-link" href="/categories/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/">博客配置</a>
+    <a class="category-link" href="/categories/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE-%E5%9F%BA%E7%A1%80%E7%AF%87/">博客配置-基础篇</a>
     
       <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-        <a href="/categories/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/" itemprop="url"><span itemprop="name">博客配置</span></a>
+        <a href="/categories/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE-%E5%9F%BA%E7%A1%80%E7%AF%87/" itemprop="url"><span itemprop="name">博客配置-基础篇</span></a>
       </span>
     
   </div>
@@ -2655,13 +2655,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <div class="new-meta-item wordcount">
     <a class='notlink'>
       <i class="fa-solid fa-keyboard fa-fw" aria-hidden="true"></i>
-      <p>字数：2.9k 字</p>
+      <p>字数：2.2k 字</p>
     </a>
   </div>
   <div class="new-meta-item readtime">
     <a class='notlink'>
       <i class="fa-solid fa-hourglass-half fa-fw" aria-hidden="true"></i>
-      <p>时长：12 分钟</p>
+      <p>时长：9 分钟</p>
     </a>
   </div>
 
@@ -2669,10 +2669,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           
         
           
-            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2022-04-30T00:00:00+08:00">
+            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2022-04-29T00:00:00+08:00">
   <a class='notlink'>
     <i class="fa-solid fa-calendar-alt fa-fw" aria-hidden="true"></i>
-    <p>发布于：2022年4月30日</p>
+    <p>发布于：2022年4月29日</p>
   </a>
 </div>
 
@@ -2683,7 +2683,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <div class="new-meta-item browse leancloud">
     <a class='notlink'>
       
-      <div id="lc-pv" data-title="Volantis配置日记--Day2" data-path="/2022/04/30/02-%E9%85%8D%E7%BD%AEVolantis/">
+      <div id="lc-pv" data-title="Volantis配置日记--Day1" data-path="/2022/04/29/01-volantis/">
         <i class="fa-solid fa-eye fa-fw" aria-hidden="true"></i>
         <span id='number'><i class="fa-solid fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span>
         次浏览
@@ -2704,110 +2704,130 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   <div id="layoutHelper-page-plugins"></div>
   <div id="post-body" itemprop="articleBody">
-    <p>文章发布了吗？如果发布了，那么肯定会遇上一个问题，那就是图怎么办呢？因此我们需要一个图床，把图片放进去，然后他就会生成一个链接，调用链接即可显示图片啦！这样的模式能让图片加载速度比较快。</p>
-<h3 id="1-文章图床配置"><a href="#1-文章图床配置" class="headerlink" title="1. 文章图床配置"></a>1. 文章图床配置</h3><p>PicGo是一款图床工具，它可以和Typora结合使用，当我们写文章时，他会自动上传到指定的图床，返回链接，而且，它支持各种主流图床！</p>
-<h4 id="1-1-安装PicGo"><a href="#1-1-安装PicGo" class="headerlink" title="1.1 安装PicGo"></a>1.1 安装PicGo</h4><p>PicGo下载链接：<a target="_blank" rel="noopener" href="https://github.com/Molunerfinn/PicGo/releases">https://github.com/Molunerfinn/PicGo/releases</a></p>
-<p>自行选择版本进行下载，我这里选择的是PicGo-Setup-2.3.0-x64.exe</p>
-<p>如果太觉得github网速太慢，也可以到网盘下。</p>
-<p>安装好后如下图：</p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/1651290220117.png' data-fancybox='default' data-caption='undefined'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/1651290220117.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/1651290220117.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a><span></span></div></div>
+    <p>欢迎来到我的博客，你将就此打开新世界的大门！</p>
+<p>我的教程相对于大佬来说比较啰嗦，属于是小白新手向，捧场的各位请多多包涵！</p>
+<h3 id="1-安装主题Volantis"><a href="#1-安装主题Volantis" class="headerlink" title="1. 安装主题Volantis"></a>1. 安装主题Volantis</h3><p>温馨提示：有关博客部署的教程不在此文章内，需要自行百度查询</p>
+<h4 id="1-1-进入主页"><a href="#1-1-进入主页" class="headerlink" title="1.1 进入主页"></a>1.1 进入主页</h4><p>根据提示进行安装</p>
+<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/1651205687749.png' data-fancybox='default' data-caption='undefined'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/1651205687749.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/1651205687749.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  /></a><span></span></div></div>
 
-<p>找到<code>设置server</code></p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/1651290400248.png' data-fancybox='default' data-caption='undefined'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/1651290400248.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/1651290400248.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a><span></span></div></div>
-
-<p>点击<code>确定</code>即可</p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/1651290442871.png' data-fancybox='default' data-caption='undefined'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/1651290442871.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/1651290442871.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a><span></span></div></div>
-
-<h4 id="1-2-配置Typora"><a href="#1-2-配置Typora" class="headerlink" title="1.2 配置Typora"></a>1.2 配置Typora</h4><p>在Typora主页面按 <code>Ctrl+逗号</code>，或者找 <code>菜单-文件-偏好设置</code></p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/16512902201234.png' data-fancybox='default' data-caption='undefined'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/16512902201234.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/16512902201234.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a><span></span></div></div>
+<p>然后用<code>hexo g</code>命令时会提示如下信息：</p>
+<blockquote>
+<p>ERROR</p>
+<p>配置文件检查失败！| Configuration check failed!</p>
+<p>description 未配置！<br>description主要用于SEO，告诉搜索引擎一个关于您站点的简单描述，通常建议在其中包含您网站的关键词。</p>
+</blockquote>
+<p>根据提示在  <code>_config.yml</code>的<code>description</code>里添加自己博客的关键词就好</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Site</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">Hexo</span></span><br><span class="line"><span class="attr">subtitle:</span> <span class="string">&#x27;&#x27;</span></span><br><span class="line"><span class="attr">description:</span> <span class="string">&#x27;blog&#x27;</span>  <span class="comment"># 在此处添加</span></span><br><span class="line"><span class="attr">keywords:</span></span><br><span class="line"><span class="attr">author:</span> <span class="string">John</span> <span class="string">Doe</span></span><br><span class="line"><span class="attr">language:</span> <span class="string">en</span></span><br><span class="line"><span class="attr">timezone:</span> <span class="string">&#x27;&#x27;</span></span><br></pre></td></tr></table></figure>
 
 
 
-<h4 id="1-3-阿里云OSS"><a href="#1-3-阿里云OSS" class="headerlink" title="1.3 阿里云OSS"></a>1.3 阿里云OSS</h4><p>这次我选择的是阿里云，我的比较多的服务都是阿里云里的（包括以前玩的物联网平台，IOT studio，Python学习，域名购买，数据库购买，加上这次oss服务），阿里云给我的印象还是很不错的。出于方便，我就选择了阿里云。</p>
-<h5 id="1-3-1-开通阿里云OSS服务"><a href="#1-3-1-开通阿里云OSS服务" class="headerlink" title="1.3.1 开通阿里云OSS服务"></a>1.3.1 开通阿里云OSS服务</h5><p>阿里云OSS网页地址：<a target="_blank" rel="noopener" href="https://www.aliyun.com/product/oss">https://www.aliyun.com/product/oss</a> </p>
-<p>直接开通即可。它有两种收费方式：</p>
-<ul>
-<li>按量的就是 0.12元 &#x2F;GB&#x2F;月，对于我们这种小博客而言已经足够了。</li>
-<li>资源包的话，土豪请随意。</li>
-</ul>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220430123219113.png' data-fancybox='default' data-caption='undefined'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220430123219113.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220430123219113.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a><span></span></div></div>
+<p>分别执行<code>hexo clean</code>，<code>hexo g</code>，<code>hexo s</code>，就不会报错了</p>
+<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/1651206168300.png' data-fancybox='default' data-caption='undefined'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/1651206168300.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/1651206168300.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a><span></span></div></div>
 
-<p>一般新人都是有优惠的，不嫖白不嫖~</p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220430123652712.png' data-fancybox='default' data-caption='undefined'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220430123652712.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220430123652712.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a><span></span></div></div>
+<p>这属于正常情况，不用担心。</p>
+<p>浏览器内输入<code>http://localhost:4000/</code>，如果不出意外，主页就是如下图所示</p>
+<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/1651206475286.png' data-fancybox='default' data-caption='undefined'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/1651206475286.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/1651206475286.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a><span></span></div></div>
+
+<p>看！你已经成功创建好并进入了主页！</p>
+<h4 id="1-2-创建分页"><a href="#1-2-创建分页" class="headerlink" title="1.2 创建分页"></a>1.2 创建分页</h4><p>当前页面的链接只有归档（archives&#x2F;）有用，这是因为archives&#x2F;这个页面是自动生成的，另外的页面需要我们自己创建</p>
+<p>在博客文件夹内按住shift右击鼠标，弹出菜单，点击<code>打开PowerShell窗口</code>，确认是自己的文件内部之后输入命令</p>
+<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page <span class="string">&quot;about&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>这是代表创建了一个叫about&#x2F; 的页面，此时在<code>source</code>文件夹里会出现一个<code>about</code>文件夹，里面有一个<code>index.md</code>。</p>
+<p>修改它成如下样式:</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">layout: docs</span><br><span class="line">seo<span class="emphasis">_title: 关于</span></span><br><span class="line"><span class="emphasis">bottom_</span>meta: false</span><br><span class="line">sidebar: []</span><br><span class="line">valine:</span><br><span class="line"><span class="section">  placeholder: 有什么想对我说的呢？</span></span><br><span class="line"><span class="section">---</span></span><br></pre></td></tr></table></figure>
 
 
 
-<h5 id="1-3-2-创建bucket"><a href="#1-3-2-创建bucket" class="headerlink" title="1.3.2 创建bucket"></a>1.3.2 创建bucket</h5><p>右侧点击<code>创建bucket</code></p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220430125432778.png' data-fancybox='default' data-caption='undefined'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220430125432778.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220430125432778.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a><span></span></div></div>
+<p>同理：创建分类页面</p>
+<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page <span class="string">&quot;categories&quot;</span></span><br></pre></td></tr></table></figure>
 
-<p>注意事项：Bucket名字不能有大写字母、地域就近选择、存储类型选择<code>标准存储</code>，读写权限<code>公共读</code></p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220430130148901.png' data-fancybox='default' data-caption='undefined'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220430130148901.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220430130148901.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a><span></span></div></div>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">layout: category</span><br><span class="line">index: true</span><br><span class="line"><span class="section">title: 所有分类</span></span><br><span class="line"><span class="section">---</span></span><br></pre></td></tr></table></figure>
 
-<p>创建完毕后，找到Bucket列表中的<code>地域节点</code>以及<code>访问域名</code></p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220430130627308.png' data-fancybox='default' data-caption='undefined'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220430130627308.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220430130627308.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a><span></span></div></div>
 
-<h5 id="1-3-3-创建AccessKey"><a href="#1-3-3-创建AccessKey" class="headerlink" title="1.3.3 创建AccessKey"></a>1.3.3 创建AccessKey</h5><p>右上角头像内找到<code>AccessKey管理</code>，并点击进去</p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220430130903562.png' data-fancybox='default' data-caption='undefined'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220430130903562.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220430130903562.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a><span></span></div></div>
 
-<p>点击蓝色的<code>继续使用AccessKey</code></p>
-<p>然后能进入主界面，再次点击蓝色的<code>创建AccessKey</code>，验证完毕后即可拿到相关信息</p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220430131320338.png' data-fancybox='default' data-caption='undefined'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220430131320338.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220430131320338.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a><span></span></div></div>
+<p>同理：创建标签页面</p>
+<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page <span class="string">&quot;tags&quot;</span></span><br></pre></td></tr></table></figure>
 
-<p>将<code>AccessKey ID</code>和<code>AccessKey Secret</code>保存下来</p>
-<h4 id="1-4-配置PicGo"><a href="#1-4-配置PicGo" class="headerlink" title="1.4 配置PicGo"></a>1.4 配置PicGo</h4><p>找到<code>阿里云OSS设置</code>，根据获得的信息填写前5项，后面2个可以暂时不填。</p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220430131723064.png' data-fancybox='default' data-caption='image-20220430131723064.png'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220430131723064.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220430131723064.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220430131723064.png"></a><span class='image-caption'>image-20220430131723064.png</span></div></div>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">layout: tag</span><br><span class="line">index: true</span><br><span class="line"><span class="section">title: 所有标签</span></span><br><span class="line"><span class="section">---</span></span><br></pre></td></tr></table></figure>
 
-<p>点击<code>确定</code></p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220430132400067.png' data-fancybox='default' data-caption='image-20220430132400067.png'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220430132400067.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220430132400067.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220430132400067.png"></a><span class='image-caption'>image-20220430132400067.png</span></div></div>
 
-<p>设置成功！图床就配置完毕啦！</p>
-<h4 id="1-5-上传测试"><a href="#1-5-上传测试" class="headerlink" title="1.5 上传测试"></a>1.5 上传测试</h4><div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220430132726716.png' data-fancybox='default' data-caption='image-20220430132726716'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220430132726716.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220430132726716.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220430132726716"></a><span class='image-caption'>image-20220430132726716</span></div></div>
 
-<p>如果有这个页面，那么恭喜你！上传成功！你的图床就建立完毕啦！</p>
-<h3 id="2-侧边栏配置"><a href="#2-侧边栏配置" class="headerlink" title="2. 侧边栏配置"></a>2. 侧边栏配置</h3><p>由于我们有了图床，那么就可以对我们网页内的图片进行编辑了，主页给人的感官已经不错了，现在需要把自己的logo上传上去，以及选择一些自己想要的小配件。右侧栏目的配置都在<code>sidebar</code>这个分类内。 </p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220430150829308.png' data-fancybox='default' data-caption='image-20220430150829308'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220430150829308.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220430150829308.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220430150829308"></a><span class='image-caption'>image-20220430150829308</span></div></div>
+<p>同理：创建友链页面</p>
+<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page <span class="string">&quot;friends&quot;</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">layout: friends # 必须</span><br><span class="line"><span class="section">title: 友情链接 # 可选，这是友链页的标题</span></span><br><span class="line"><span class="section">---</span></span><br><span class="line"></span><br><span class="line">这里写友链上方的内容。</span><br><span class="line"></span><br><span class="line">&lt;!-- more --&gt;</span><br><span class="line"></span><br><span class="line">这里可以写友链页面下方的文字备注，例如自己的友链规范、示例等。</span><br></pre></td></tr></table></figure>
+
+
+
+<p>直接在<code>source</code>文件夹下创建一个<code>404.md</code>文件</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">cover: true</span><br><span class="line">robots: noindex,nofollow</span><br><span class="line">sitemap: false</span><br><span class="line">seo<span class="emphasis">_title: 404 Not Found</span></span><br><span class="line"><span class="emphasis">bottom_</span>meta: false</span><br><span class="line">sidebar: []</span><br><span class="line">twikoo:</span><br><span class="line">  path: /404.html</span><br><span class="line"><span class="section">  placeholder: 请留言告诉我您要访问哪个页面找不到了</span></span><br><span class="line"><span class="section">---</span></span><br><span class="line"></span><br><span class="line">&#123;% p logo center huge, 404 %&#125;</span><br><span class="line">&#123;% p center bold, 很抱歉，您访问的页面不存在 %&#125;</span><br><span class="line">&#123;% p center small, 可能是输入地址有误或该地址已被删除 %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>创建页面完毕！</p>
+<p>接下来就是准备配置你喜欢的样式。</p>
+<p>在开始之前，重要的事情说三遍！重要的事情说三遍！重要的事情说三遍！</p>
+<p>每次修改完配置之后，必须要<strong>hexo clean，hexo g，hexo s</strong>，一条龙才行！！！不然可能会没有配置好。</p>
+<h3 id="2-站点配置"><a href="#2-站点配置" class="headerlink" title="2. 站点配置"></a>2. 站点配置</h3><p>可参考的修改配置如下（主要是一些上传gitee需要的配置信息），按照<code>_config.yml</code>的顺序，以下为修改的信息：</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Site</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">欢迎来到配菜师的博客！</span></span><br><span class="line"><span class="attr">description:</span> <span class="string">&#x27;个人博客&#x27;</span></span><br><span class="line"><span class="attr">keywords:</span> <span class="string">&#x27;配菜师&#x27;</span></span><br><span class="line"><span class="attr">author:</span> <span class="string">clever-ming</span></span><br><span class="line"><span class="attr">language:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">zh-CN</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">en</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">zh-HK</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">zh-TW</span></span><br><span class="line"><span class="attr">timezone:</span> <span class="string">&#x27;Asia/Shanghai&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># URL</span></span><br><span class="line"><span class="comment">## Set your site url here. For example, if you use GitHub Page, set url as &#x27;https://username.github.io/project&#x27;</span></span><br><span class="line"><span class="attr">url:</span> <span class="string">https://clever-ming.gitee.io</span></span><br><span class="line"><span class="attr">root:</span> <span class="string">/</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Deployment</span></span><br><span class="line"><span class="comment">## Docs: https://hexo.io/docs/one-command-deployment</span></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">https://gitee.com/clever-ming/clever-ming.git</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">master</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="3-主题配置"><a href="#3-主题配置" class="headerlink" title="3. 主题配置"></a>3. 主题配置</h3><blockquote>
+<p>在博客根目录的 <code>_config.yml</code> 文件旁边新建一个文件： <code>_config.volantis.yml</code> ，这个文件中的配置信息优先级高于主题文件夹中的配置文件。</p>
+</blockquote>
+<p>这个就等于是创建一个配置文件，要改什么就拿出来，然后改动。对于小白来说可能觉得无从下手，那我就结合我的网站，按我的顺序说一下。</p>
+<p><strong>温馨提示：在修改之前，建议把整个主题配置框架结构有个大致的了解，这更有利于选取配置进行修改。</strong></p>
+<h4 id="3-1-cover"><a href="#3-1-cover" class="headerlink" title="3.1 cover"></a>3.1 cover</h4><p>这个内容是打开页面第一眼看见的，我选择的是搜索栏的形式（对应的是layout_scheme），并且我希望观众可以欣赏一下壁纸，然后再看到我的文章(对应的是height_scheme)，所以我的代码配置如下：</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">cover:</span></span><br><span class="line">  <span class="attr">height_scheme:</span> <span class="string">full</span> <span class="comment"># full, half</span></span><br><span class="line">  <span class="attr">layout_scheme:</span> <span class="string">search</span> </span><br><span class="line">  <span class="comment"># blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)  任你选择</span></span><br><span class="line">  <span class="attr">display:</span></span><br><span class="line">    <span class="attr">home:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">archive:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">others:</span> <span class="literal">false</span> <span class="comment"># can be written in front-matter &#x27;cover: true&#x27;</span></span><br></pre></td></tr></table></figure>
+
+<p>下方也是cover里的内容，我分开是因为分个结构。应该看得懂吧······</p>
+<p><code>background</code>调用的接口需要更换一个，下方我是随便网上找个好用的，凑活一下。</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">cover:</span></span><br><span class="line">  <span class="string">......</span></span><br><span class="line">  <span class="attr">background:</span> <span class="string">https://api.dujin.org/bing/1920.php</span>  <span class="comment"># 可以是任意的图片api，百度即可</span></span><br><span class="line">  <span class="attr">logo:</span> <span class="comment"># 显示在中间标题上的，使用logo会挡壁纸 = =</span></span><br><span class="line">  <span class="attr">title:</span> <span class="string">&#x27;配菜师&#x27;</span></span><br><span class="line">  <span class="attr">subtitle:</span> <span class="string">&#x27;真实的个人，真实的生活，和真实的经验分享，感谢所有具有开源精神的人！&#x27;</span></span><br><span class="line">  <span class="attr">search:</span> <span class="string">搜你想搜</span> <span class="comment"># search bar placeholder</span></span><br><span class="line">  <span class="attr">features:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">首页</span></span><br><span class="line">      <span class="attr">icon:</span> <span class="string">fa-solid</span> <span class="string">fa-rss</span></span><br><span class="line">      <span class="attr">img:</span> <span class="string">volantis-static/media/twemoji/assets/svg/1f5c3.svg</span></span><br><span class="line">      <span class="attr">url:</span> <span class="string">/</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">分类</span></span><br><span class="line">      <span class="attr">icon:</span> <span class="string">fa-solid</span> <span class="string">fa-folder-open</span></span><br><span class="line">      <span class="attr">img:</span> <span class="string">volantis-static/media/twemoji/assets/svg/1f396.svg</span> </span><br><span class="line">      <span class="attr">url:</span> <span class="string">/categories/</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">标签</span></span><br><span class="line">      <span class="attr">icon:</span> <span class="string">fa-solid</span> <span class="string">fa-tags</span></span><br><span class="line">      <span class="attr">img:</span> <span class="string">volantis-static/media/twemoji/assets/svg/1f389.svg</span> </span><br><span class="line">      <span class="attr">url:</span> <span class="string">/tags/</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">时间轴</span></span><br><span class="line">      <span class="attr">icon:</span> <span class="string">fa-solid</span> <span class="string">fa-archive</span></span><br><span class="line">      <span class="attr">img:</span> <span class="string">volantis-static/media/twemoji/assets/svg/1f516.svg</span> </span><br><span class="line">      <span class="attr">url:</span> <span class="string">/archives/</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">友链</span></span><br><span class="line">      <span class="attr">icon:</span> <span class="string">fa-solid</span> <span class="string">fa-link</span></span><br><span class="line">      <span class="attr">img:</span> <span class="string">volantis-static/media/twemoji/assets/svg/1f4f0.svg</span> </span><br><span class="line">      <span class="attr">url:</span> <span class="string">/friends/</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">网页源码</span></span><br><span class="line">      <span class="attr">icon:</span> <span class="string">fa</span> <span class="string">fa-code-branch</span></span><br><span class="line">      <span class="attr">img:</span> <span class="string">volantis-static/media/twemoji/assets/svg/1f9ec.svg</span> </span><br><span class="line">      <span class="attr">url:</span> <span class="string">https://gitee.com/clever-ming/clever-ming/</span></span><br></pre></td></tr></table></figure>
+
+<p>如果不出意外，配置完之后你的主页应该就是下面这样了。</p>
+<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/1651216621003.png' data-fancybox='default' data-caption='undefined'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/1651216621003.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/1651216621003.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a><span></span></div></div>
+
+
+
+<h4 id="3-2-navbar"><a href="#3-2-navbar" class="headerlink" title="3.2 navbar"></a>3.2 navbar</h4><p>我们看了主页，往下滑动，就会发现有一篇文章《Hello World》，点击下方<code>阅读全文</code>，显示的就是文章页面，文章上方有一个导航栏，这个也是经常会看见的。</p>
+<p>所以我们需要设置一下导航栏，改成自己想要的样式。</p>
+<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/1651218086535.png' data-fancybox='default' data-caption='undefined'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/1651218086535.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/1651218086535.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a><span></span></div></div>
 
 
 
 <blockquote>
-<p>每一个小部件都有 <code>class</code> 和 <code>display</code>，前者代表这个小部件是什么，后者代表这个小部件在什么桌面和移动平台中是否显示，如果在移动平台显示，由于屏幕宽度有限，侧边栏的小部件则会被移动到正文区域下方，因此部分侧边栏小部件便失去意义，建议设置为仅桌面端显示。</p>
+<p>导航栏分为 logo、menu、search 三个区域设置，其中 logo 区域如果设置了图片，则不能显示图标和标题， menu 区域的设置可以写在一个单独的文件中。 </p>
 </blockquote>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">小部件名:</span></span><br><span class="line">  <span class="attr">class:</span> <span class="string">小部件类别</span></span><br><span class="line">  <span class="attr">display:</span> [<span class="string">小部件在桌面端是否显示</span>, <span class="string">小部件在移动设备是否显示</span>]</span><br><span class="line">  <span class="attr">pjaxReload:</span> <span class="literal">true</span> <span class="comment"># 是否 pjax 重载 默认 true; 设置为 false 时 确保所有页面都含有该小部件</span></span><br></pre></td></tr></table></figure>
+<p>以下为我的设计方案</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 注意事项：建议规范全站路径 URL 最后带一个 &quot;/&quot; 例如 &quot;about/&quot;</span></span><br><span class="line"><span class="attr">navbar:</span></span><br><span class="line">  <span class="attr">visiable:</span> <span class="string">auto</span> <span class="comment"># always, auto</span></span><br><span class="line">  <span class="attr">logo:</span> <span class="comment"># choose [img] or [icon + title]</span></span><br><span class="line">    <span class="attr">img:</span> <span class="string">volantis-static/media/org.volantis/blog/Logo-NavBar@3x.png</span> </span><br><span class="line">    <span class="attr">icon:</span></span><br><span class="line">    <span class="attr">title:</span></span><br><span class="line">  <span class="attr">menu:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">首页</span></span><br><span class="line">      <span class="attr">icon:</span> <span class="string">fa-solid</span> <span class="string">fa-rss</span></span><br><span class="line">      <span class="attr">url:</span> <span class="string">/</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">文章归档</span></span><br><span class="line">      <span class="attr">icon:</span> <span class="string">fa-solid</span> <span class="string">fa-ellipsis-v</span></span><br><span class="line">      <span class="attr">rows:</span> </span><br><span class="line">        <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">分类</span></span><br><span class="line">          <span class="attr">icon:</span> <span class="string">fa-solid</span> <span class="string">fa-folder-open</span></span><br><span class="line">          <span class="attr">url:</span> <span class="string">categories/</span></span><br><span class="line">        <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">标签</span></span><br><span class="line">          <span class="attr">icon:</span> <span class="string">fa-solid</span> <span class="string">fa-tags</span></span><br><span class="line">          <span class="attr">url:</span> <span class="string">tags/</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">时间轴</span></span><br><span class="line">      <span class="attr">icon:</span> <span class="string">fa-solid</span> <span class="string">fa-archive</span></span><br><span class="line">      <span class="attr">url:</span> <span class="string">archives/</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">关于我</span></span><br><span class="line">      <span class="attr">icon:</span> <span class="string">fa-solid</span> <span class="string">fa-info-circle</span></span><br><span class="line">      <span class="attr">url:</span> <span class="string">about/</span></span><br><span class="line">  <span class="attr">search:</span> <span class="string">Search...</span>   <span class="comment"># Search bar placeholder</span></span><br></pre></td></tr></table></figure>
+
+<p>使用了一个菜单嵌套，嵌套的属性名为 <code>rows</code> ，根据需要可以自行创建，正常配置之后如下图所示：</p>
+<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/1651218547923.png' data-fancybox='default' data-caption='undefined'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/1651218547923.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/1651218547923.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a><span></span></div></div>
 
 
 
-<h4 id="2-1-改变名片"><a href="#2-1-改变名片" class="headerlink" title="2.1 改变名片"></a>2.1 改变名片</h4><p>可以在Typora里调用一下图片，然后他就上传了，接着获取到logo的调用地址。</p>
-<p>我希望的名片方式是：</p>
+<h4 id="3-3-夜间模式"><a href="#3-3-夜间模式" class="headerlink" title="3.3 夜间模式"></a>3.3 夜间模式</h4><p>导航栏和主页设置好了，看着这个页面，总觉得需要些什么，<strong>夜间模式</strong>，网页可以不用，但不能没有。</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">plugins:</span></span><br><span class="line">  <span class="comment"># 暗黑模式 darkmode</span></span><br><span class="line">  <span class="comment"># 开关按钮：在 navbar.menu 中添加：</span></span><br><span class="line">  <span class="comment"># - name: 暗黑模式 # 可自定义</span></span><br><span class="line">  <span class="comment">#   icon: fa-solid fa-moon # 可自定义</span></span><br><span class="line">  <span class="comment">#   toggle: darkmode</span></span><br><span class="line">  <span class="attr">darkmode:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+<p>上面的代码注释中提示都提示了，那么就安排上吧。(省略号为之前写过的代码)</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">navbar:</span></span><br><span class="line">  <span class="string">......</span></span><br><span class="line">  <span class="attr">menu:</span></span><br><span class="line">  <span class="string">......</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">日间/夜间模式</span> </span><br><span class="line">      <span class="attr">icon:</span> <span class="string">fa-solid</span> <span class="string">fa-sun</span> <span class="comment"># 我更喜欢太阳的小图标</span></span><br><span class="line">      <span class="attr">toggle:</span> <span class="string">darkmode</span></span><br></pre></td></tr></table></figure>
+
+
+
+<p>这就是最最基本的设置，恭喜你已经完成好啦！接下来尝试着写并发布一篇文章吧！</p>
+<p>写文章推荐使用Typora，由于目前Typora收费了，但是以前的版本不用，我这里有安装包，回头放网盘里。</p>
+<h3 id="4-文章配置"><a href="#4-文章配置" class="headerlink" title="4. 文章配置"></a>4. 文章配置</h3><p>发布文章之后，有一些基本的设置，我觉得会更好看一些。</p>
 <ul>
-<li>只出现在桌面端</li>
-<li>圆形头像，点击就可以今进入<code>关于我</code>这个页面</li>
-<li>有每日一句（推荐的句子质量还不错）</li>
-<li>需要有社交小链接</li>
+<li>将文章永久链接取消</li>
+<li>设置了默认作者</li>
+<li>取消了分享图标</li>
 </ul>
-<p>打开<code>_config.volantis.yml</code> 文件，下方追加以下代码：</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">sidebar:</span></span><br><span class="line">  <span class="comment"># 侧边栏组件库</span></span><br><span class="line">  <span class="attr">widget_library:</span></span><br><span class="line">    <span class="comment"># ---------------------------------------</span></span><br><span class="line">    <span class="comment"># blogger info widget</span></span><br><span class="line">    <span class="attr">blogger:</span></span><br><span class="line">      <span class="attr">class:</span> <span class="string">blogger</span></span><br><span class="line">      <span class="attr">display:</span> [<span class="string">desktop</span>] <span class="comment"># [desktop, mobile]</span></span><br><span class="line">      <span class="attr">avatar:</span> <span class="string">https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/head_logo.jpg</span> <span class="comment"># 这里放置你的logo地址</span></span><br><span class="line">      <span class="attr">shape:</span> <span class="string">circle</span> <span class="comment"># circle, rectangle</span></span><br><span class="line">      <span class="attr">url:</span> <span class="string">/about/</span></span><br><span class="line">      <span class="attr">title:</span> </span><br><span class="line">      <span class="attr">subtitle:</span></span><br><span class="line">      <span class="attr">jinrishici:</span> <span class="literal">True</span> <span class="comment"># Poetry Today. You can set a string, and it will be displayed when loading fails.</span></span><br><span class="line">      <span class="attr">social:</span> </span><br><span class="line">      <span class="comment"># 注意！这里需要自行添加，不然就会有下图情况</span></span><br><span class="line">        <span class="bullet">-</span> <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-g</span></span><br><span class="line">          <span class="attr">url:</span> <span class="string">https://gitee.com/clever-ming</span></span><br><span class="line">        <span class="bullet">-</span> <span class="attr">icon:</span> <span class="string">fab</span> <span class="string">fa-bilibili</span></span><br><span class="line">          <span class="attr">url:</span> <span class="string">https://space.bilibili.com/87679554</span>   </span><br><span class="line">    <span class="comment"># ---------------------------------------</span></span><br></pre></td></tr></table></figure>
+<p>配置如下：</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 文章布局</span></span><br><span class="line"><span class="attr">article:</span></span><br><span class="line">  <span class="comment"># 文章详情页面的文章卡片本体布局方案</span></span><br><span class="line">  <span class="attr">body:</span></span><br><span class="line">    <span class="comment"># ----------------</span></span><br><span class="line">    <span class="comment"># 文章页脚组件</span></span><br><span class="line">    <span class="attr">footer_widget:</span></span><br><span class="line">      <span class="comment"># ----------------</span></span><br><span class="line">      <span class="comment"># 版权声明组件 (for layout: post/docs)</span></span><br><span class="line">      <span class="attr">copyright:</span></span><br><span class="line">        <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">        <span class="comment"># permalink: &#x27;本文永久链接是：&#x27;</span></span><br><span class="line">        <span class="attr">content:</span></span><br><span class="line">          <span class="bullet">-</span> <span class="string">&#x27;博客内容遵循 署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议&#x27;</span></span><br><span class="line">          <span class="comment"># - permalink</span></span><br><span class="line">      <span class="comment"># ----------------</span></span><br><span class="line">    <span class="comment"># meta library</span></span><br><span class="line">    <span class="attr">meta_library:</span></span><br><span class="line">      <span class="comment"># 默认文章作者（可在 front-matter 中覆盖）</span></span><br><span class="line">      <span class="attr">author:</span></span><br><span class="line">        <span class="attr">avatar:</span> <span class="string">volantis-static/media/org.volantis/blog/favicon/apple-touch-icon.png</span></span><br><span class="line">        <span class="attr">name:</span> <span class="string">clever-ming</span></span><br><span class="line">        <span class="attr">url:</span> <span class="string">/</span></span><br><span class="line">      <span class="attr">tags:</span></span><br><span class="line">        <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-hashtag</span></span><br><span class="line">      <span class="comment"># 分享</span></span><br><span class="line">      <span class="attr">share:</span></span><br><span class="line">      <span class="comment">#  - id: qq</span></span><br><span class="line">      <span class="comment">#    img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qq.png</span></span><br><span class="line">      <span class="comment">#  - id: qzone</span></span><br><span class="line">      <span class="comment">#    img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qzone.png</span></span><br><span class="line">      <span class="comment">#  - id: weibo</span></span><br><span class="line">      <span class="comment">#    img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/weibo.png</span></span><br><span class="line">      <span class="comment">#  - id: # qrcode # 当id为qrcode时需要安装插件  npm i hexo-helper-qrcode</span></span><br><span class="line">      <span class="comment">#    img: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/wechat.png</span></span><br><span class="line">      <span class="comment">#  - id: # telegram</span></span><br><span class="line">      <span class="comment">#    img: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/telegram.png</span></span><br></pre></td></tr></table></figure>
 
-<p>注意！算是一个小坑，<code>social</code>部分这里需要自行添加，不然就会有下图情况</p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220430154506846.png' data-fancybox='default' data-caption='image-20220430154506846'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220430154506846.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220430154506846.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220430154506846"></a><span class='image-caption'>image-20220430154506846</span></div></div>
 
-<p>文章分类和标签我觉得挺好的，暂时没有别的需要添加，所以就先这样吧。</p>
-<h3 id="3-修改导航栏，作者logo"><a href="#3-修改导航栏，作者logo" class="headerlink" title="3. 修改导航栏，作者logo"></a>3. 修改导航栏，作者logo</h3><p>补一下坑，这里要修改的。<code>img</code>改成自己的logo链接就好，但是感觉文字更有高级感，图是方形图，不那么好看。</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">navbar:</span></span><br><span class="line">  <span class="string">......</span></span><br><span class="line">  <span class="attr">logo:</span> <span class="comment"># choose [img] or [icon + title]</span></span><br><span class="line">    <span class="attr">img:</span></span><br><span class="line">    <span class="attr">icon:</span></span><br><span class="line">    <span class="attr">title:</span> <span class="string">ClevER</span> <span class="string">Ming</span></span><br></pre></td></tr></table></figure>
 
-<p>因为有了图床，那么作者旁边也改成自己的logo，他会自动调成圆形。</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 文章布局</span></span><br><span class="line"><span class="attr">article:</span></span><br><span class="line">  <span class="comment"># 文章详情页面的文章卡片本体布局方案</span></span><br><span class="line">  <span class="attr">body:</span></span><br><span class="line">  <span class="string">......</span></span><br><span class="line">    <span class="attr">meta_library:</span></span><br><span class="line">      <span class="comment"># 默认文章作者（可在 front-matter 中覆盖）</span></span><br><span class="line">      <span class="attr">author:</span></span><br><span class="line">        <span class="attr">avatar:</span> <span class="string">https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/head_logo.jpg</span></span><br><span class="line">        <span class="string">......</span></span><br></pre></td></tr></table></figure>
-
-<p>运行一下试试，还不错。</p>
-<h3 id="4-修改右键菜单"><a href="#4-修改右键菜单" class="headerlink" title="4. 修改右键菜单"></a>4. 修改右键菜单</h3><p>右键菜单本身非常好看，但是有些选项你可能不会太喜欢，所以我们需要对他进行修改</p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220430211911478.png' data-fancybox='default' data-caption='image-20220430211911478'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220430211911478.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220430211911478.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220430211911478"></a><span class='image-caption'>image-20220430211911478</span></div></div>
-
-<p>打开熟悉的<code>_config.volantis.yml</code> 文件，添加以下代码：</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">### 自定义右键 新</span></span><br><span class="line"><span class="attr">rightmenus:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># 右键菜单项及加载顺序</span></span><br><span class="line">  <span class="comment"># 内容示例：plugins.[组名], menus.[组名], hr(分割线，推荐去线留白), music(音乐控制器)</span></span><br><span class="line">  <span class="attr">order:</span> </span><br><span class="line">    <span class="bullet">-</span> <span class="string">plugins.navigation</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">hr</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">plugins.inputBox</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">plugins.seletctText</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">plugins.elementCheck</span></span><br><span class="line">    <span class="comment"># - plugins.elementImage</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">menus.link</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">hr</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">menus.darkMode</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">plugins.articlePage</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">music</span></span><br><span class="line">  <span class="comment">############################</span></span><br><span class="line">  <span class="comment"># - &#123;id: &#x27;&#x27;, name: &#x27;&#x27;, icon: &#x27;&#x27;, link: &#x27;&#x27;, event: &#x27;&#x27;, group: &#x27;&#x27;&#125;</span></span><br><span class="line">  <span class="comment"># id: 唯一值</span></span><br><span class="line">  <span class="comment"># name: 用于菜单名称显示</span></span><br><span class="line">  <span class="comment"># icon: 用于菜单图标显示</span></span><br><span class="line">  <span class="comment"># link: 跳转链接</span></span><br><span class="line">  <span class="comment"># event: 事件，当输入内容不为内置事件时，作 JavaScript 代码执行</span></span><br><span class="line">  <span class="comment"># group: 菜单项所处分组名称</span></span><br><span class="line">  <span class="comment"># 注： </span></span><br><span class="line">  <span class="comment"># 1. link/event 二选一，同时出现时仅处理 link</span></span><br><span class="line">  <span class="comment"># 2. 内置事件列表： copyText, copyLink, copyPaste, copyAll, copyCut, copyImg, printMode, readMode</span></span><br><span class="line">  <span class="comment"># 3. 内置组列表：navigation, inputBox, seletctText, elementCheck, elementImage, articlePage</span></span><br><span class="line">  <span class="comment"># 4. plugins 列允许自定义组内项目</span></span><br><span class="line">  <span class="comment"># 5. menus   列允许自定义组及其内容</span></span><br><span class="line">  <span class="comment"># 6. 除 navigation 外的内置组，在显示时会隐藏含 link 属性的菜单项</span></span><br><span class="line">  <span class="comment">###########################</span></span><br><span class="line">  <span class="comment"># 基础项设置</span></span><br><span class="line">  <span class="attr">options:</span></span><br><span class="line">    <span class="comment"># 图标前缀 fa-solid, fa-regular, fa-light, fa-thin, fa-duotone, fa-brands</span></span><br><span class="line">    <span class="attr">iconPrefix:</span> <span class="string">fa-solid</span></span><br><span class="line">    <span class="comment"># 例外，在 articlePage 组显示时（文章页）时依旧显示含 link 属性的菜单项</span></span><br><span class="line">    <span class="attr">articleShowLink:</span> <span class="literal">false</span></span><br><span class="line">    <span class="comment"># 当设定全局音乐播放器时，是否一直显示音乐控制菜单。false：仅当音乐播放时启用</span></span><br><span class="line">    <span class="attr">musicAlwaysShow:</span> <span class="literal">false</span></span><br><span class="line">    <span class="comment"># 适用于复制图片文件的场景，当图片源未设置 Access-Control-Allow-Origin 时，图片复制由于 CORS 问题失败</span></span><br><span class="line">    <span class="comment"># 你可以自行部署相应项目解决该问题，详见：https://github.com/Rob--W/cors-anywhere 或者 https://github.com/Zibri/cloudflare-cors-anywhere</span></span><br><span class="line">    <span class="attr">corsAnywhere:</span> </span><br><span class="line">  <span class="comment"># 右键内置组，预置实现</span></span><br><span class="line">  <span class="attr">plugins:</span></span><br><span class="line">    <span class="comment"># 导航组件</span></span><br><span class="line">    <span class="comment"># 横向排列，共用一行，仅显示图标 (原则上支持的数量不限)</span></span><br><span class="line">    <span class="attr">navigation:</span> </span><br><span class="line">      <span class="bullet">-</span> &#123;<span class="attr">id:</span> <span class="string">&#x27;left&#x27;</span>, <span class="attr">name:</span> <span class="string">&#x27;转到上一页&#x27;</span>, <span class="attr">icon:</span> <span class="string">&#x27;fa-solid fa-arrow-left&#x27;</span>, <span class="attr">event:</span> <span class="string">&#x27;history.back()&#x27;</span>, <span class="attr">group:</span> <span class="string">&#x27;navigation&#x27;</span>&#125;</span><br><span class="line">      <span class="bullet">-</span> &#123;<span class="attr">id:</span> <span class="string">&#x27;right&#x27;</span>, <span class="attr">name:</span> <span class="string">&#x27;转到下一页&#x27;</span>, <span class="attr">icon:</span> <span class="string">&#x27;fa-solid fa-arrow-right&#x27;</span>, <span class="attr">event:</span> <span class="string">&#x27;history.forward()&#x27;</span>, <span class="attr">group:</span> <span class="string">&#x27;navigation&#x27;</span>&#125;</span><br><span class="line">      <span class="bullet">-</span> &#123;<span class="attr">id:</span> <span class="string">&#x27;redo&#x27;</span>, <span class="attr">name:</span> <span class="string">&#x27;刷新当前页面&#x27;</span>, <span class="attr">icon:</span> <span class="string">&#x27;fa-solid fa-redo&#x27;</span>, <span class="attr">event:</span> <span class="string">&#x27;window.location.reload()&#x27;</span>, <span class="attr">group:</span> <span class="string">&#x27;navigation&#x27;</span>&#125;</span><br><span class="line">      <span class="comment">#- &#123;id: &#x27;up&#x27;, name: &#x27;回到顶部&#x27;, icon: &#x27;fa-solid fa-arrow-up&#x27;, event: &#x27;VolantisApp.scrolltoElement(volantis.dom.bodyAnchor)&#x27;, group: &#x27;navigation&#x27;&#125;</span></span><br><span class="line">      <span class="bullet">-</span> &#123;<span class="attr">id:</span> <span class="string">&#x27;home&#x27;</span>, <span class="attr">name:</span> <span class="string">&#x27;回到首页&#x27;</span>, <span class="attr">icon:</span> <span class="string">&#x27;fa-solid fa-home&#x27;</span>, <span class="attr">link:</span> <span class="string">&#x27;/&#x27;</span>, <span class="attr">group:</span> <span class="string">&#x27;navigation&#x27;</span>&#125;</span><br><span class="line">    <span class="comment"># 文本输入框相关组件</span></span><br><span class="line">    <span class="comment"># 生效于 input/textarea，粘贴、剪切、全选</span></span><br><span class="line">    <span class="attr">inputBox:</span></span><br><span class="line">      <span class="bullet">-</span> &#123;<span class="attr">id:</span> <span class="string">&#x27;copyPaste&#x27;</span>, <span class="attr">name:</span> <span class="string">&#x27;粘贴文本&#x27;</span>, <span class="attr">icon:</span> <span class="string">&#x27;fa-solid fa-paste&#x27;</span>, <span class="attr">event:</span> <span class="string">&#x27;copyPaste&#x27;</span>, <span class="attr">group:</span> <span class="string">&#x27;inputBox&#x27;</span>&#125;</span><br><span class="line">      <span class="bullet">-</span> &#123;<span class="attr">id:</span> <span class="string">&#x27;copyAll&#x27;</span>, <span class="attr">name:</span> <span class="string">&#x27;全选文本&#x27;</span>, <span class="attr">icon:</span> <span class="string">&#x27;fa-solid fa-object-ungroup&#x27;</span>, <span class="attr">event:</span> <span class="string">&#x27;copyAll&#x27;</span>, <span class="attr">group:</span> <span class="string">&#x27;inputBox&#x27;</span>&#125;</span><br><span class="line">      <span class="bullet">-</span> &#123;<span class="attr">id:</span> <span class="string">&#x27;copyCut&#x27;</span>, <span class="attr">name:</span> <span class="string">&#x27;剪切文本&#x27;</span>, <span class="attr">icon:</span> <span class="string">&#x27;fa-solid fa-cut&#x27;</span>, <span class="attr">event:</span> <span class="string">&#x27;copyCut&#x27;</span>, <span class="attr">group:</span> <span class="string">&#x27;inputBox&#x27;</span>&#125;</span><br><span class="line">    <span class="comment"># 文本选中类组件</span></span><br><span class="line">    <span class="comment"># 生效于右键选中文本，__text__ 为选中的文本。     </span></span><br><span class="line">    <span class="attr">seletctText:</span></span><br><span class="line">      <span class="bullet">-</span> &#123;<span class="attr">id:</span> <span class="string">&#x27;copyText&#x27;</span>, <span class="attr">name:</span> <span class="string">&#x27;复制文本&#x27;</span>, <span class="attr">icon:</span> <span class="string">&#x27;fa-solid fa-copy&#x27;</span>, <span class="attr">event:</span> <span class="string">&#x27;copyText&#x27;</span>, <span class="attr">group:</span> <span class="string">&#x27;seletctText&#x27;</span>&#125;</span><br><span class="line">      <span class="bullet">-</span> &#123;<span class="attr">id:</span> <span class="string">&#x27;searchWord&#x27;</span>, <span class="attr">name:</span> <span class="string">&#x27;站内搜索&#x27;</span>, <span class="attr">icon:</span> <span class="string">&#x27;fa-solid fa-search&#x27;</span>, <span class="attr">event:</span> <span class="string">&#x27;OpenSearch(__text__)&#x27;</span>, <span class="attr">group:</span> <span class="string">&#x27;seletctText&#x27;</span>&#125;</span><br><span class="line">      <span class="bullet">-</span> &#123;<span class="attr">id:</span> <span class="string">&#x27;CSDNSearch&#x27;</span>, <span class="attr">name:</span> <span class="string">&#x27;CSDN搜索&#x27;</span>, <span class="attr">icon:</span> <span class="string">&#x27;fa-solid fa-search&#x27;</span>, <span class="attr">event:</span> <span class="string">&#x27;window.open(`https://so.csdn.net/so/search?q=$&#123;__text__&#125;`)&#x27;</span>, <span class="attr">group:</span> <span class="string">&#x27;seletctText&#x27;</span>&#125;</span><br><span class="line">      <span class="bullet">-</span> &#123;<span class="attr">id:</span> <span class="string">&#x27;baiduSearch&#x27;</span>, <span class="attr">name:</span> <span class="string">&#x27;百度搜索&#x27;</span>, <span class="attr">icon:</span> <span class="string">&#x27;fa-solid fa-search&#x27;</span>, <span class="attr">event:</span> <span class="string">&#x27;window.open(`https://www.baidu.com/s?wd=$&#123;__text__&#125;`)&#x27;</span>, <span class="attr">group:</span> <span class="string">&#x27;seletctText&#x27;</span>&#125;</span><br><span class="line">      <span class="bullet">-</span> &#123;<span class="attr">id:</span> <span class="string">&#x27;bingSearch&#x27;</span>, <span class="attr">name:</span> <span class="string">&#x27;必应搜索&#x27;</span>, <span class="attr">icon:</span> <span class="string">&#x27;fa-solid fa-search&#x27;</span>, <span class="attr">event:</span> <span class="string">&#x27;window.open(`https://cn.bing.com/search?q=$&#123;__text__&#125;`)&#x27;</span>, <span class="attr">group:</span> <span class="string">&#x27;seletctText&#x27;</span>&#125;</span><br><span class="line">      <span class="comment"># - &#123;id: &#x27;googleSearch&#x27;, name: &#x27;谷歌搜索&#x27;, icon: &#x27;fa-solid fa-search&#x27;, event: &#x27;window.open(`https://www.google.com/search?q=$&#123;__text__&#125;`)&#x27;, group: &#x27;seletctText&#x27;&#125;</span></span><br><span class="line">    <span class="comment"># 链接判断组件</span></span><br><span class="line">    <span class="comment"># 生效于链接处的右键行为，__link__ 为链接地址</span></span><br><span class="line">    <span class="attr">elementCheck:</span></span><br><span class="line">      <span class="bullet">-</span> &#123;<span class="attr">id:</span> <span class="string">&#x27;openTab&#x27;</span>, <span class="attr">name:</span> <span class="string">&#x27;新标签页打开&#x27;</span>, <span class="attr">icon:</span> <span class="string">&#x27;fa-solid fa-external-link-square-alt&#x27;</span>, <span class="attr">event:</span> <span class="string">&#x27;window.open(__link__)&#x27;</span>, <span class="attr">group:</span> <span class="string">&#x27;elementCheck&#x27;</span>&#125;</span><br><span class="line">      <span class="bullet">-</span> &#123;<span class="attr">id:</span> <span class="string">&#x27;copyLink&#x27;</span>, <span class="attr">name:</span> <span class="string">&#x27;复制链接地址&#x27;</span>, <span class="attr">icon:</span> <span class="string">&#x27;fa-solid fa-link&#x27;</span>, <span class="attr">event:</span> <span class="string">&#x27;copyLink&#x27;</span>, <span class="attr">group:</span> <span class="string">&#x27;elementCheck&#x27;</span>&#125;</span><br><span class="line">    <span class="comment"># 图片判断类组件</span></span><br><span class="line">    <span class="comment"># 生效于图片类的右键行为，__link__ 为链接地址</span></span><br><span class="line">    <span class="comment"># elementImage:</span></span><br><span class="line">      <span class="comment"># - &#123;id: &#x27;copyImg&#x27;, name: &#x27;复制图片&#x27;, icon: &#x27;fa-solid fa-image&#x27;, event: &#x27;copyImg&#x27;, group: &#x27;elementImage&#x27;&#125;</span></span><br><span class="line">      <span class="comment"># - &#123;id: &#x27;googleImg&#x27;, name: &#x27;谷歌识图&#x27;, icon: &#x27;fa-solid fa-images&#x27;, event: &#x27;window.open(`https://www.google.com.hk/searchbyimage?image_url=$&#123;__link__&#125;`)&#x27;, group: &#x27;elementImage&#x27;&#125;</span></span><br><span class="line">    <span class="comment"># 文章页面组件</span></span><br><span class="line">    <span class="comment"># 生效于 post.article 页面</span></span><br><span class="line">    <span class="attr">articlePage:</span></span><br><span class="line">      <span class="bullet">-</span> &#123;<span class="attr">id:</span> <span class="string">&#x27;printMode&#x27;</span>, <span class="attr">name:</span> <span class="string">&#x27;打印页面&#x27;</span>, <span class="attr">icon:</span> <span class="string">&#x27;fa-solid fa-print&#x27;</span>, <span class="attr">event:</span> <span class="string">&#x27;printMode&#x27;</span>, <span class="attr">group:</span> <span class="string">&#x27;articlePage&#x27;</span>&#125;</span><br><span class="line">      <span class="bullet">-</span> &#123;<span class="attr">id:</span> <span class="string">&#x27;readMode&#x27;</span>, <span class="attr">name:</span> <span class="string">&#x27;阅读模式&#x27;</span>, <span class="attr">icon:</span> <span class="string">&#x27;fa-solid fa-book-open&#x27;</span>, <span class="attr">event:</span> <span class="string">&#x27;readMode&#x27;</span>, <span class="attr">group:</span> <span class="string">&#x27;articlePage&#x27;</span>&#125;</span><br><span class="line">  <span class="comment"># 右键自定义菜单区域</span></span><br><span class="line">  <span class="attr">menus:</span></span><br><span class="line">    <span class="attr">link:</span></span><br><span class="line">      <span class="comment"># - &#123;id: &#x27;help&#x27;, name: &#x27;常见问题&#x27;, icon: &#x27;fa-solid fa-question&#x27;, link: &#x27;https://volantis.js.org/faqs/&#x27;, group: &#x27;link&#x27;&#125;</span></span><br><span class="line">      <span class="comment"># - &#123;id: &#x27;examples&#x27;, name: &#x27;示例博客&#x27;, icon: &#x27;fa-solid fa-rss&#x27;, link: &#x27;https://volantis.js.org/examples/&#x27;, group: &#x27;link&#x27;&#125;</span></span><br><span class="line">      <span class="comment"># - &#123;id: &#x27;contributors&#x27;, name: &#x27;加入社区&#x27;, icon: &#x27;fa-solid fa-fan&#x27;, link: &#x27;https://volantis.js.org/contributors/&#x27;, group: &#x27;link&#x27;&#125;</span></span><br><span class="line">      <span class="comment"># - hr</span></span><br><span class="line">       <span class="bullet">-</span> &#123;<span class="attr">id:</span> <span class="string">&#x27;source_docs&#x27;</span>, <span class="attr">name:</span> <span class="string">&#x27;本站源码&#x27;</span>, <span class="attr">icon:</span> <span class="string">&#x27;fa-solid fa-code-branch&#x27;</span>, <span class="attr">link:</span> <span class="string">&#x27;https://gitee.com/clever-ming/clever-ming/&#x27;</span>, <span class="attr">group:</span> <span class="string">&#x27;link&#x27;</span>&#125;</span><br><span class="line">       <span class="bullet">-</span> &#123;<span class="attr">id:</span> <span class="string">&#x27;source_theme&#x27;</span>, <span class="attr">name:</span> <span class="string">&#x27;volantis社区&#x27;</span>, <span class="attr">icon:</span> <span class="string">&#x27;fa-solid fa-code-branch&#x27;</span>, <span class="attr">link:</span> <span class="string">&#x27;https://volantis.js.org/&#x27;</span>, <span class="attr">group:</span> <span class="string">&#x27;link&#x27;</span>&#125;</span><br><span class="line">    <span class="attr">darkMode:</span> </span><br><span class="line">      <span class="bullet">-</span> &#123;<span class="attr">id:</span> <span class="string">&#x27;darkMode&#x27;</span>, <span class="attr">name:</span> <span class="string">&#x27;夜间模式&#x27;</span>, <span class="attr">icon:</span> <span class="string">&#x27;fa-solid fa-moon&#x27;</span>, <span class="attr">event:</span> <span class="string">&#x27;volantis.dark.toggle()&#x27;</span>, <span class="attr">group:</span> <span class="string">&#x27;darkMode&#x27;</span>&#125;</span><br><span class="line"><span class="comment">###</span></span><br></pre></td></tr></table></figure>
-
-<p>上面的注释都描述的很清楚，你可以根据自己需要的样式改动。</p>
-<p>我的改动主要是去除了一些读者用不上的选项，图片类的删除了，添加了一些国产特色：<code>CSDN</code>和<code>Baidu</code>。</p>
-<p>三剑客 <code>hexo clean</code>，<code>hexo g</code>，<code>hexo s</code>，试试效果吧！</p>
-<p><strong>Day 2 结束！欣赏一下自己的博客吧！</strong></p>
+<p><strong>Day 1 结束！欣赏一下自己的博客吧！</strong></p>
 
 
   </div>
@@ -2840,10 +2860,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateModified" datetime="2022-05-05T19:59:32+08:00">
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2022-05-06T15:40:55+08:00">
   <a class='notlink'>
     <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
-    <p>更新于：2022年5月5日</p>
+    <p>更新于：2022年5月6日</p>
   </a>
 </div>
 
@@ -2863,13 +2883,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <div class="new-meta-item wordcount">
     <a class='notlink'>
       <i class="fa-solid fa-keyboard fa-fw" aria-hidden="true"></i>
-      <p>字数：2.9k 字</p>
+      <p>字数：2.2k 字</p>
     </a>
   </div>
   <div class="new-meta-item readtime">
     <a class='notlink'>
       <i class="fa-solid fa-hourglass-half fa-fw" aria-hidden="true"></i>
-      <p>时长：12 分钟</p>
+      <p>时长：9 分钟</p>
     </a>
   </div>
 
@@ -2885,25 +2905,24 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   
   
+    
+    
+  
 
   
     <div class="prev-next">
       
-        <a class='prev' href='/2022/05/01/03-%E9%85%8D%E7%BD%AEVolantis/'>
-          <p class='title'><i class="fa-solid fa-chevron-left" aria-hidden="true"></i>Volantis配置日记--Day3</p>
-          <p class='content'>欢迎来到第三天！按照进度，你应该也发布了文章啦。有了文章，那么展示给别人看，就需要有评论区吧。
-1. 评论区配置官方文档：
-
-目前共支持 14 款评论系统：
-artalk, giscus, be...</p>
+        <a class='prev' href='/2022/04/30/02-volantis/'>
+          <p class='title'><i class="fa-solid fa-chevron-left" aria-hidden="true"></i>Volantis配置日记--Day2</p>
+          <p class='content'>文章发布了吗？如果发布了，那么肯定会遇上一个问题，那就是图怎么办呢？因此我们需要一个图床，把图片放进去，然后他就会生成一个链接，调用链接即可显示图片啦！这样的模式能让图片加载速度比较快。
+1. ...</p>
         </a>
       
       
-        <a class='next' href='/2022/04/29/01-%E9%85%8D%E7%BD%AEVolantis/'>
-          <p class='title'>Volantis配置日记--Day1<i class="fa-solid fa-chevron-right" aria-hidden="true"></i></p>
-          <p class='content'>欢迎来到我的博客，你将就此打开新世界的大门！
-我的教程相对于大佬来说比较啰嗦，属于是小白新手向，捧场的各位请多多包涵！
-1. 安装主题Volantis温馨提示：有关博客部署的教程不在此文章内，需...</p>
+        <a class='next' href='/2022/04/27/00-hello/'>
+          <p class='title'>Hello World<i class="fa-solid fa-chevron-right" aria-hidden="true"></i></p>
+          <p class='content'>开端Welcome to Hexo! This is your very first post. 
+这是我部署好blog看到的第一句话，那个星空展现在我眼前时，我的第一反应是sooooo cra...</p>
         </a>
       
     </div>
@@ -2919,7 +2938,7 @@ artalk, giscus, be...</p>
   
   <article class="post white-box shadow floatable blur" id="comments">
     <span hidden>
-      <meta itemprop="discussionUrl" content="/2022/04/30/02-%E9%85%8D%E7%BD%AEVolantis/index.html#comments">
+      <meta itemprop="discussionUrl" content="/2022/04/29/01-volantis/index.html#comments">
     </span>
     <p ct><i class='fas fa-comments'></i> 评论区</p>
     
@@ -2941,6 +2960,93 @@ artalk, giscus, be...</p>
     
 
 
+  
+
+<section class="widget list group shadow floatable blur desktop mobile pjax">
+  
+  <header>
+    
+      <a href='/categories/'><i class="fas fa-book fa-fw" aria-hidden="true"></i><span class='name'>Volantis基础配置</span></a>
+    
+  </header>
+
+
+  <div class='content'>
+    <ul class="list entry navigation">
+      
+        <li><a class="flat-box" title="/2022/04/29/01-volantis/" href="/2022/04/29/01-volantis/"
+          
+          
+          active-action="action-2022042901-volantis"
+          >
+          <div class='name'>
+            
+            Volantis配置日记--Day1
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/2022/04/30/02-volantis/" href="/2022/04/30/02-volantis/"
+          
+          
+          active-action="action-2022043002-volantis"
+          >
+          <div class='name'>
+            
+            Volantis配置日记--Day2
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/2022/05/01/03-volantis/" href="/2022/05/01/03-volantis/"
+          
+          
+          active-action="action-2022050103-volantis"
+          >
+          <div class='name'>
+            
+            Volantis配置日记--Day3
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/2022/05/04/04-volantis/" href="/2022/05/04/04-volantis/"
+          
+          
+          active-action="action-2022050404-volantis"
+          >
+          <div class='name'>
+            
+            Volantis配置日记--Day4
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/2022/05/05/05-volantis/" href="/2022/05/05/05-volantis/"
+          
+          
+          active-action="action-2022050505-volantis"
+          >
+          <div class='name'>
+            
+            Volantis配置日记--Day5
+          </div>
+          
+        </a></li>
+      
+    </ul>
+  </div>
+</section>
+
+
+
+  
+
+  
+    
+    
+
+
 
   <section class="widget toc-wrapper shadow floatable blur desktop mobile pjax" id="toc-div" >
     
@@ -2952,7 +3058,7 @@ artalk, giscus, be...</p>
 
 
     <div class='content'>
-        <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E6%96%87%E7%AB%A0%E5%9B%BE%E5%BA%8A%E9%85%8D%E7%BD%AE"><span class="toc-text">1. 文章图床配置</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-%E5%AE%89%E8%A3%85PicGo"><span class="toc-text">1.1 安装PicGo</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-%E9%85%8D%E7%BD%AETypora"><span class="toc-text">1.2 配置Typora</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-%E9%98%BF%E9%87%8C%E4%BA%91OSS"><span class="toc-text">1.3 阿里云OSS</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#1-3-1-%E5%BC%80%E9%80%9A%E9%98%BF%E9%87%8C%E4%BA%91OSS%E6%9C%8D%E5%8A%A1"><span class="toc-text">1.3.1 开通阿里云OSS服务</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#1-3-2-%E5%88%9B%E5%BB%BAbucket"><span class="toc-text">1.3.2 创建bucket</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#1-3-3-%E5%88%9B%E5%BB%BAAccessKey"><span class="toc-text">1.3.3 创建AccessKey</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-4-%E9%85%8D%E7%BD%AEPicGo"><span class="toc-text">1.4 配置PicGo</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-5-%E4%B8%8A%E4%BC%A0%E6%B5%8B%E8%AF%95"><span class="toc-text">1.5 上传测试</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E4%BE%A7%E8%BE%B9%E6%A0%8F%E9%85%8D%E7%BD%AE"><span class="toc-text">2. 侧边栏配置</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#2-1-%E6%94%B9%E5%8F%98%E5%90%8D%E7%89%87"><span class="toc-text">2.1 改变名片</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E4%BF%AE%E6%94%B9%E5%AF%BC%E8%88%AA%E6%A0%8F%EF%BC%8C%E4%BD%9C%E8%80%85logo"><span class="toc-text">3. 修改导航栏，作者logo</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-%E4%BF%AE%E6%94%B9%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95"><span class="toc-text">4. 修改右键菜单</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E5%AE%89%E8%A3%85%E4%B8%BB%E9%A2%98Volantis"><span class="toc-text">1. 安装主题Volantis</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-%E8%BF%9B%E5%85%A5%E4%B8%BB%E9%A1%B5"><span class="toc-text">1.1 进入主页</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-%E5%88%9B%E5%BB%BA%E5%88%86%E9%A1%B5"><span class="toc-text">1.2 创建分页</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E7%AB%99%E7%82%B9%E9%85%8D%E7%BD%AE"><span class="toc-text">2. 站点配置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE"><span class="toc-text">3. 主题配置</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#3-1-cover"><span class="toc-text">3.1 cover</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-2-navbar"><span class="toc-text">3.2 navbar</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-3-%E5%A4%9C%E9%97%B4%E6%A8%A1%E5%BC%8F"><span class="toc-text">3.3 夜间模式</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-%E6%96%87%E7%AB%A0%E9%85%8D%E7%BD%AE"><span class="toc-text">4. 文章配置</span></a></li></ol>
     </div>
   </section>
 
@@ -3069,17 +3175,8 @@ artalk, giscus, be...</p>
             
           
             
-              <a href="/MyLove/"
-                class="social fas fa-heart flat-btn"
-                target="_blank"
-                rel="external nofollow noopener noreferrer" itemprop="url">
-                
-              </a>
-            
-          
-            
-              <a href="https://space.bilibili.com/87679554"
-                class="social fab fa-bilibili flat-btn"
+              <a href="https://github.com/Clever-Ming"
+                class="social fab fa-github flat-btn"
                 target="_blank"
                 rel="external nofollow noopener noreferrer" itemprop="url">
                 
@@ -3109,7 +3206,7 @@ artalk, giscus, be...</p>
     
       
         <div class='copyright'>
-        <p><a href="/">Copyright © since 2017 XXX</a></p>
+        <p><a href="/">Copyright © since 2022 Ms</a></p>
 
         </div>
       
@@ -4362,7 +4459,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"配菜师的成长之路","url":"https://clever-ming.gitee.io/","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"clever-ming","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://clever-ming.gitee.io/","sameAs":["https://github.com/volantis-x"],"description":"个人博客"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://clever-ming.gitee.io/","name":"配菜师的成长之路"}},{"@type":"ListItem","position":2,"item":{"@id":"https://clever-ming.gitee.io/categories/博客配置/","name":"博客配置"}},{"@type":"ListItem","position":3,"item":{"@id":"https://clever-ming.gitee.io/2022/04/30/02-配置Volantis/","name":"Volantis配置日记--Day2"}}]},{"@context":"http://schema.org","@type":"BlogPosting","headline":"Volantis配置日记--Day2","description":"内容包括：Typora+PicGo+阿里云图床配置、侧边栏配置、修改logo、修改右键菜单。","datePublished":"2022-04-29T16:00:00.000Z","dateModified":"2022-05-05T11:59:32.242Z","inLanguage":["zh-CN","en","zh-HK","zh-TW","default"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://clever-ming.gitee.io/2022/04/30/02-%E9%85%8D%E7%BD%AEVolantis/"},"author":{"@type":"Person","name":"clever-ming","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://clever-ming.gitee.io/"},"publisher":{"@type":"Organization","name":"配菜师的成长之路","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://clever-ming.gitee.io/2022/04/30/02-%E9%85%8D%E7%BD%AEVolantis/","wordCount":0,"articleSection":"博客配置","keywords":"Volantis","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"配菜师的成长之路","url":"https://clever-ming.gitee.io/","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"clever-ming","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://clever-ming.gitee.io/","sameAs":["https://github.com/volantis-x"],"description":"个人博客"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://clever-ming.gitee.io/","name":"配菜师的成长之路"}},{"@type":"ListItem","position":2,"item":{"@id":"https://clever-ming.gitee.io/categories/博客配置-基础篇/","name":"博客配置-基础篇"}},{"@type":"ListItem","position":3,"item":{"@id":"https://clever-ming.gitee.io/2022/04/29/01-volantis/","name":"Volantis配置日记--Day1"}}]},{"@context":"http://schema.org","@type":"BlogPosting","headline":"Volantis配置日记--Day1","description":"内容包括：初步的安装主题、站点配置、主题配置、文章配置。","datePublished":"2022-04-28T16:00:00.000Z","dateModified":"2022-05-06T07:40:55.192Z","inLanguage":["zh-CN","en","zh-HK","zh-TW","default"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://clever-ming.gitee.io/2022/04/29/01-volantis/"},"author":{"@type":"Person","name":"clever-ming","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://clever-ming.gitee.io/"},"publisher":{"@type":"Organization","name":"配菜师的成长之路","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://clever-ming.gitee.io/2022/04/29/01-volantis/","wordCount":0,"articleSection":"博客配置-基础篇","keywords":"Volantis","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 
