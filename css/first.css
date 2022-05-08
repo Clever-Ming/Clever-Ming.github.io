@@ -1669,3 +1669,6 @@ ul.list-v >li>a:hover {
     background: var(--color-site-bg) !important;
   }
 }
+:root {
+  --color-mode: 'dark';
+}
