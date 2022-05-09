@@ -45,7 +45,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png">
 <meta property="article:published_time" content="2022-05-05T16:00:00.000Z">
-<meta property="article:modified_time" content="2022-05-08T16:21:10.343Z">
+<meta property="article:modified_time" content="2022-05-09T13:10:25.402Z">
 <meta property="article:author" content="clever-ming">
 <meta property="article:tag" content="Volantis">
 <meta name="twitter:card" content="summary">
@@ -1810,7 +1810,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: false,
     cdn: {"js":{"app":"/js/app.3690b000.js","parallax":"/js/plugins/parallax.8bf0ab10.js","rightMenu":"/js/plugins/rightMenu.1d2dd3e0.js","rightMenus":"/js/plugins/rightMenus.48fa1716.js","sites":"/js/plugins/tags/sites.76bf19b8.js","friends":"/js/plugins/tags/friends.f372da57.js","contributors":"/js/plugins/tags/contributors.aec80453.js","search":"/js/search/hexo.06d40311.js"},"css":{"style":"/css/style.4bf0445b.css"}},
     default: {"avatar":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/avatar/round/3442075.svg","link":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/cover/76b86c0226ffd.svg","image":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1652026994413),
+    lastupdate: new Date(1652106880079),
     sidebar: {
       for_page: ["blogger","category","tagcloud","webinfo"],
       for_post: ["toc"],
@@ -2692,7 +2692,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <div class="new-meta-item wordcount">
     <a class='notlink'>
       <i class="fa-solid fa-keyboard fa-fw" aria-hidden="true"></i>
-      <p>字数：230 字</p>
+      <p>字数：461 字</p>
     </a>
   </div>
   <div class="new-meta-item readtime">
@@ -2742,6 +2742,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <div id="layoutHelper-page-plugins"></div>
   <div id="post-body" itemprop="articleBody">
     <p>如果你有参考我的日记，你会发现，基础的配置已经满足不了个性化的需求了。那么我们就得开启无穷无尽的个性化道路。</p>
+<p>我的理解是：个性化，其实就是网上找喜欢的页面，观察他的样式，结合自己的理解，对自己的网站样式修改、模仿的过程。</p>
 <p>进入个性化之前，请认真阅读并理解下方的官方文档。这是我们自定义的开始！</p>
 <div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220505223115128.png' data-fancybox='default' data-caption='image-20220505223115128'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220505223115128.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220505223115128.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220505223115128"></a><span class='image-caption'>image-20220505223115128</span></div></div>
 
@@ -2749,13 +2750,20 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <ul>
 <li>first: 向 <code>theme/source/css/first.styl</code> 文件末尾注入自定义内容, 该文件中包含首屏样式,首屏样式采用硬编码的方式写在HTML中。首屏样式内含 cover navbar search 的样式.</li>
 </ul>
-<p>因为夜间模式样式是属于在cover内的，所以我们在<code>_volantis</code>内创建一个名叫<code>first.styl</code>的文件，在该文件内修改就可以。添加如下代码：</p>
+<p>我们在<code>_volantis</code>内创建一个名叫<code>first.styl</code>的文件，在该文件内修改就可以。添加如下代码：</p>
 <figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-pseudo">:root</span></span><br><span class="line">  <span class="attr">--color-mode</span>: <span class="string">&#x27;dark&#x27;</span></span><br></pre></td></tr></table></figure>
 
 <p>这样打开页面就是默认夜间模式了。</p>
-<ol start="2">
-<li></li>
-</ol>
+<p>2.日间模式字体配置</p>
+<p>字体是白色的，在日间模式的时候，因为壁纸发白的缘故，可能看不清。</p>
+<p>我们可以通过增添一个阴影的方式来缓解这难受的视觉体验。</p>
+<p>基础篇day4的2.4.1，有详细的说明如何引入一个高优先级的css，我们同理，然后在custom.css添加以下代码：</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.cover-wrapper</span> <span class="selector-class">.cover-body</span> <span class="selector-class">.title</span>, <span class="selector-class">.subtitle</span>&#123;</span><br><span class="line">    <span class="attribute">text-shadow</span>: <span class="number">2px</span> <span class="number">2px</span> <span class="number">10px</span> <span class="number">#000</span> <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.cover-wrapper</span> <span class="selector-class">.list-h</span> <span class="selector-tag">a</span>&#123;</span><br><span class="line">    <span class="attribute">text-shadow</span>: <span class="number">2px</span> <span class="number">2px</span> <span class="number">10px</span> <span class="number">#000</span> <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>目的就是让文字加一点阴影，这样的话白色的背景也看得见。</p>
+<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220509204730724.png' data-fancybox='default' data-caption='image-20220509204730724'><img fancybox itemprop="contentUrl" src="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220509204730724.png" class="lazyload" data-srcset="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/image-20220509204730724.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20220509204730724"></a><span class='image-caption'>image-20220509204730724</span></div></div>
+
+<p>这个是缓兵之计，要效果更好的话，还得自己找好合适的壁纸，然后认真搭配，不调用随机的壁纸API。</p>
 
 
   </div>
@@ -2788,7 +2796,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateModified" datetime="2022-05-09T00:21:10+08:00">
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2022-05-09T21:10:25+08:00">
   <a class='notlink'>
     <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
     <p>更新于：2022年5月9日</p>
@@ -2811,7 +2819,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <div class="new-meta-item wordcount">
     <a class='notlink'>
       <i class="fa-solid fa-keyboard fa-fw" aria-hidden="true"></i>
-      <p>字数：230 字</p>
+      <p>字数：461 字</p>
     </a>
   </div>
   <div class="new-meta-item readtime">
@@ -2886,6 +2894,103 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <aside id='l_side' itemscope itemtype="http://schema.org/WPSideBar">
   
   
+    
+    
+
+
+  
+
+<section class="widget list group shadow floatable blur desktop mobile pjax">
+  
+  <header>
+    
+      <a href='/categories/'><i class="fas fa-book fa-fw" aria-hidden="true"></i><span class='name'>Volantis基础配置</span></a>
+    
+  </header>
+
+
+  <div class='content'>
+    <ul class="list entry navigation">
+      
+        <li><a class="flat-box" title="/2022/04/29/01-volantis/" href="/2022/04/29/01-volantis/"
+          
+          
+          active-action="action-2022042901-volantis"
+          >
+          <div class='name'>
+            
+            Volantis配置日记--Day1
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/2022/04/30/02-volantis/" href="/2022/04/30/02-volantis/"
+          
+          
+          active-action="action-2022043002-volantis"
+          >
+          <div class='name'>
+            
+            Volantis配置日记--Day2
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/2022/05/01/03-volantis/" href="/2022/05/01/03-volantis/"
+          
+          
+          active-action="action-2022050103-volantis"
+          >
+          <div class='name'>
+            
+            Volantis配置日记--Day3
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/2022/05/04/04-volantis/" href="/2022/05/04/04-volantis/"
+          
+          
+          active-action="action-2022050404-volantis"
+          >
+          <div class='name'>
+            
+            Volantis配置日记--Day4
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/2022/05/05/05-volantis/" href="/2022/05/05/05-volantis/"
+          
+          
+          active-action="action-2022050505-volantis"
+          >
+          <div class='name'>
+            
+            Volantis配置日记--Day5
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/2022/05/06/06-Cvolantis/" href="/2022/05/06/06-Cvolantis/"
+          
+          
+          active-action="action-2022050606-Cvolantis"
+          >
+          <div class='name'>
+            
+            Volantis个性化--Day1
+          </div>
+          
+        </a></li>
+      
+    </ul>
+  </div>
+</section>
+
+
+
+  
 
   
     
@@ -2911,10 +3016,6 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
 <!-- 没有 pjax 占位会报错 万恶的 pjax -->
-
-  <div class="pjax">
-    <!-- pjax占位 -->
-  </div>
 
   <div class="pjax">
     <!-- pjax占位 -->
@@ -4308,7 +4409,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"配菜师的成长之路","url":"https://clever-ming.gitee.io/","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"clever-ming","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://clever-ming.gitee.io/","sameAs":["https://github.com/volantis-x"],"description":"个人博客"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://clever-ming.gitee.io/","name":"配菜师的成长之路"}},{"@type":"ListItem","position":2,"item":{"@id":"https://clever-ming.gitee.io/categories/博客配置-进阶篇/","name":"博客配置-进阶篇"}},{"@type":"ListItem","position":3,"item":{"@id":"https://clever-ming.gitee.io/2022/05/06/06-Cvolantis/","name":"Volantis个性化--Day1"}}]},{"@context":"http://schema.org","@type":"BlogPosting","headline":"Volantis个性化--Day1","description":"内容包括：。","datePublished":"2022-05-05T16:00:00.000Z","dateModified":"2022-05-08T16:21:10.343Z","inLanguage":["zh-CN","en","zh-HK","zh-TW","default"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://clever-ming.gitee.io/2022/05/06/06-Cvolantis/"},"author":{"@type":"Person","name":"clever-ming","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://clever-ming.gitee.io/"},"publisher":{"@type":"Organization","name":"配菜师的成长之路","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://clever-ming.gitee.io/2022/05/06/06-Cvolantis/","wordCount":0,"articleSection":"博客配置-进阶篇","keywords":"Volantis","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"配菜师的成长之路","url":"https://clever-ming.gitee.io/","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"clever-ming","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://clever-ming.gitee.io/","sameAs":["https://github.com/volantis-x"],"description":"个人博客"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://clever-ming.gitee.io/","name":"配菜师的成长之路"}},{"@type":"ListItem","position":2,"item":{"@id":"https://clever-ming.gitee.io/categories/博客配置-进阶篇/","name":"博客配置-进阶篇"}},{"@type":"ListItem","position":3,"item":{"@id":"https://clever-ming.gitee.io/2022/05/06/06-Cvolantis/","name":"Volantis个性化--Day1"}}]},{"@context":"http://schema.org","@type":"BlogPosting","headline":"Volantis个性化--Day1","description":"内容包括：。","datePublished":"2022-05-05T16:00:00.000Z","dateModified":"2022-05-09T13:10:25.402Z","inLanguage":["zh-CN","en","zh-HK","zh-TW","default"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://clever-ming.gitee.io/2022/05/06/06-Cvolantis/"},"author":{"@type":"Person","name":"clever-ming","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://clever-ming.gitee.io/"},"publisher":{"@type":"Organization","name":"配菜师的成长之路","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://clever-ming.gitee.io/2022/05/06/06-Cvolantis/","wordCount":0,"articleSection":"博客配置-进阶篇","keywords":"Volantis","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 
