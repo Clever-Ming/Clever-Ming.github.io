@@ -14,7 +14,12 @@ footer.footer .copyright{
       font-family: "SentyGoldenBell";
       src: url('https://clevermingblog.oss-cn-nanjing.aliyuncs.com/fonts/canva/SentyGoldenBell.woff2');
     }
-    
+
 .l_header #wrapper .nav-main .title {
     font-family: "SentyGoldenBell" !important;
+}
+
+.widget.blogger .content p {
+    font-family: "SentyTEA" !important;
+    font-size: 1.5rem !important;
 }
