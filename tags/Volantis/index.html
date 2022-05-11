@@ -26,7 +26,7 @@
   
   <!-- Custom Files headBegin end-->
     <link rel="shortcut icon" type='image/x-icon' href="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/imgs/logo.ico">
-  <link rel="preload" href="/css/style.c558ce16.css" as="style">
+  <link rel="preload" href="/css/style.b227bc67.css" as="style">
   <link rel="preload" href="https://clevermingblog.oss-cn-nanjing.aliyuncs.com/fonts/canva/MaShanZheng-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 <link rel="preload" href="https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/fonts/UbuntuMono/UbuntuMono-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 
@@ -889,8 +889,8 @@ button {
   font-display: swap;
 }
 @font-face {
-  font-family: 'SentyGoldenBell';
-  src: url("https://clevermingblog.oss-cn-nanjing.aliyuncs.com/fonts/canva/SentyGoldenBell.woff2");
+  font-family: 'SentyTEA';
+  src: url("https://clevermingblog.oss-cn-nanjing.aliyuncs.com/fonts/canva/SentyTEA.woff2");
   font-weight: 'normal';
   font-style: 'normal';
   font-display: swap;
@@ -1013,7 +1013,7 @@ button {
   line-height: 64px;
   padding: 0 24px;
   font-size: 1.25rem;
-  font-family: "SentyGoldenBell", Helvetica, monospace;
+  font-family: "SentyTEA", Helvetica, monospace;
 }
 .l_header #wrapper .nav-main .title img {
   height: 64px;
@@ -1727,8 +1727,8 @@ ul.list-v >li>a:hover {
 }
 
   </style>
-  <link rel="stylesheet" href="/css/style.c558ce16.css" media="print" onload="this.media='all';this.onload=null">
-  <noscript><link rel="stylesheet" href="/css/style.c558ce16.css"></noscript>
+  <link rel="stylesheet" href="/css/style.b227bc67.css" media="print" onload="this.media='all';this.onload=null">
+  <noscript><link rel="stylesheet" href="/css/style.b227bc67.css"></noscript>
     <script>
       let userColorScheme=localStorage.getItem("color-scheme")
       if(userColorScheme){
@@ -1806,9 +1806,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   volantis.GLOBAL_CONFIG ={
     debug: false,
-    cdn: {"js":{"app":"/js/app.3690b000.js","parallax":"/js/plugins/parallax.8bf0ab10.js","rightMenu":"/js/plugins/rightMenu.1d2dd3e0.js","rightMenus":"/js/plugins/rightMenus.48fa1716.js","sites":"/js/plugins/tags/sites.76bf19b8.js","friends":"/js/plugins/tags/friends.f372da57.js","contributors":"/js/plugins/tags/contributors.aec80453.js","search":"/js/search/hexo.06d40311.js"},"css":{"style":"/css/style.c558ce16.css"}},
+    cdn: {"js":{"app":"/js/app.3690b000.js","parallax":"/js/plugins/parallax.8bf0ab10.js","rightMenu":"/js/plugins/rightMenu.1d2dd3e0.js","rightMenus":"/js/plugins/rightMenus.48fa1716.js","sites":"/js/plugins/tags/sites.76bf19b8.js","friends":"/js/plugins/tags/friends.f372da57.js","contributors":"/js/plugins/tags/contributors.aec80453.js","search":"/js/search/hexo.06d40311.js"},"css":{"style":"/css/style.b227bc67.css"}},
     default: {"avatar":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/avatar/round/3442075.svg","link":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/cover/76b86c0226ffd.svg","image":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1652280371342),
+    lastupdate: new Date(1652282726439),
     sidebar: {
       for_page: ["blogger","category","tagcloud","webinfo"],
       for_post: ["toc"],
@@ -2341,13 +2341,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover" 
-                href="/about/" title="关于我"
+                href="/friends/" title="友链"
                   
                   
                   
-                    active-action="action-about"
+                    active-action="action-friends"
                   >
-                  <i class='fa-solid fa-info-circle fa-fw'></i>关于我
+                  <i class='fa-solid fa-link fa-fw'></i>友链
                 </a>
                 
               </li>
@@ -2374,6 +2374,23 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
             
               <li>
+                <a class="menuitem flat-box faa-parent animated-hover" 
+                href="/about/" title="关于我"
+                  
+                  
+                  
+                    active-action="action-about"
+                  >
+                  <i class='fa-solid fa-info-circle fa-fw'></i>关于我
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
                 <a class="menuitem flat-box header toggle-mode-btn">
                   <i class='fa-solid fa-sun fa-fw'></i>日间/夜间模式
                 </a>
@@ -2387,7 +2404,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <div class="m_search">
         <form name="searchform" class="form u-search-form">
           <i class="icon fa-solid fa-search fa-fw"></i>
-          <input type="text" class="input u-search-input" placeholder="Search..." />
+          <input type="text" class="input u-search-input" placeholder="有问即搜~" />
         </form>
       </div>
       
@@ -2491,13 +2508,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover" 
-                href="/about/" title="关于我"
+                href="/friends/" title="友链"
                   
                   
                   
-                    active-action="action-about"
+                    active-action="action-friends"
                   >
-                  <i class='fa-solid fa-info-circle fa-fw'></i>关于我
+                  <i class='fa-solid fa-link fa-fw'></i>友链
                 </a>
                 
               </li>
@@ -2515,6 +2532,23 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
                     active-action="action-fans"
                   >
                   <i class='fa-solid fa-star fa-fw'></i>致粉丝
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" 
+                href="/about/" title="关于我"
+                  
+                  
+                  
+                    active-action="action-about"
+                  >
+                  <i class='fa-solid fa-info-circle fa-fw'></i>关于我
                 </a>
                 
               </li>
@@ -3202,7 +3236,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <div class="webinfo-item">
           <div>本站总字数：</div>
-          <div>12.5k 字</div>
+          <div>12.7k 字</div>
         </div>
       
 

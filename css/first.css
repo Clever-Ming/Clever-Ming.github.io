@@ -836,8 +836,8 @@ button {
   font-display: swap;
 }
 @font-face {
-  font-family: 'SentyGoldenBell';
-  src: url("https://clevermingblog.oss-cn-nanjing.aliyuncs.com/fonts/canva/SentyGoldenBell.woff2");
+  font-family: 'SentyTEA';
+  src: url("https://clevermingblog.oss-cn-nanjing.aliyuncs.com/fonts/canva/SentyTEA.woff2");
   font-weight: 'normal';
   font-style: 'normal';
   font-display: swap;
@@ -960,7 +960,7 @@ button {
   line-height: 64px;
   padding: 0 24px;
   font-size: 1.25rem;
-  font-family: "SentyGoldenBell", Helvetica, monospace;
+  font-family: "SentyTEA", Helvetica, monospace;
 }
 .l_header #wrapper .nav-main .title img {
   height: 64px;

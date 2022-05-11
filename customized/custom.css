@@ -6,7 +6,15 @@
     text-shadow: 2px 2px 10px #000 !important;
 }
 
-
 footer.footer .copyright{
     margin-top: 0px !important;
+}
+
+@font-face {
+      font-family: "SentyGoldenBell";
+      src: url('https://clevermingblog.oss-cn-nanjing.aliyuncs.com/fonts/canva/SentyGoldenBell.woff2');
+    }
+    
+.l_header #wrapper .nav-main .title {
+    font-family: "SentyGoldenBell" !important;
 }
