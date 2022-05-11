@@ -5,3 +5,8 @@
 .cover-wrapper .list-h a{
     text-shadow: 2px 2px 10px #000 !important;
 }
+
+
+footer.footer .copyright{
+    margin-top: 0px !important;
+}

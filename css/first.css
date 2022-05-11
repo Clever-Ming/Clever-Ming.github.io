@@ -830,14 +830,14 @@ button {
 }
 @font-face {
   font-family: 'MaShanZheng';
-  src: url("https://cdn.jsdelivr.net/gh/inkss/common@1/fonts/canva/MaShanZheng-Regular.woff2");
+  src: url("https://clevermingblog.oss-cn-nanjing.aliyuncs.com/fonts/canva/MaShanZheng-Regular.woff2");
   font-weight: 'normal';
   font-style: 'normal';
   font-display: swap;
 }
 @font-face {
   font-family: 'SentyGoldenBell';
-  src: url("https://cdn.jsdelivr.net/gh/inkss/common@1/fonts/canva/SentyGoldenBell.woff2");
+  src: url("https://clevermingblog.oss-cn-nanjing.aliyuncs.com/fonts/canva/SentyGoldenBell.woff2");
   font-weight: 'normal';
   font-style: 'normal';
   font-display: swap;
